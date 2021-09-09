@@ -1,0 +1,15 @@
+.container {
+    padding: 20px;
+}
+
+.header-fixed {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.box:hover,
+.card:hover {
+    background: rgb(240, 240, 240);
+    cursor: pointer;
+}
