@@ -16,12 +16,13 @@
       </template>
     </b-navbar>
     <div class="p20">
-      <router-link :to="{ name: 'level', params: { id: 1 } }" class="box" tag="div" >I'm in a box 1</router-link>
-      <router-link :to="{ name: 'level', params: { id: 2 } }" class="box" tag="div" >I'm in a box 2</router-link>
-      <router-link :to="{ name: 'level', params: { id: 3 } }" class="box" tag="div" >I'm in a box 3</router-link>
-      <router-link :to="{ name: 'level', params: { id: 4 } }" class="box" tag="div" >I'm in a box 4</router-link>
-      <router-link :to="{ name: 'level', params: { id: 5 } }" class="box" tag="div" >I'm in a box 5</router-link>
-      <router-link :to="{ name: 'level', params: { id: 6 } }" class="box" tag="div" >I'm in a box 6</router-link>
+      <router-link :to="{ name: 'level', params: { id: 1 } }" class="box" tag="div" >Prescolar</router-link>
+      <router-link :to="{ name: 'level', params: { id: 2 } }" class="box" tag="div" >Primer Grado</router-link>
+      <router-link :to="{ name: 'level', params: { id: 3 } }" class="box" tag="div" >Segundo Grado</router-link>
+      <router-link :to="{ name: 'level', params: { id: 4 } }" class="box" tag="div" >Tercer Grado</router-link>
+      <router-link :to="{ name: 'level', params: { id: 5 } }" class="box" tag="div" >Cuarto Grado</router-link>
+      <router-link :to="{ name: 'level', params: { id: 6 } }" class="box" tag="div" >Quinto Grado</router-link>
+      <router-link :to="{ name: 'level', params: { id: 7 } }" class="box" tag="div" >Sexto Grado</router-link>
     </div>
    </div>
 </template>

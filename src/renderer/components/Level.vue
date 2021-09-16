@@ -4,7 +4,7 @@
     <div class="columns  is-mobile is-multiline is-centered cont">
       <div v-for="item in items" :key="item.id" class="column is-narrow cont">
         <router-link :to="{ name: 'activity', params: { id: item.id } }" >
-          <Card :title="item.title" />
+          <Card :title="item.title" :url="item.url"/>
         </router-link>
       </div>
     </div>
@@ -21,12 +21,11 @@
     data () {
       return {
         items: [
-          { id: 1, title: 'title 1' },
-          { id: 2, title: 'title 2' },
-          { id: 3, title: 'title 3' },
-          { id: 4, title: 'title 4' },
-          { id: 5, title: 'title 5' },
-          { id: 6, title: 'title 6' }
+          { id: 1, title: 'Categoria 1', url: require('@/assets/images/comida.jpeg') },
+          { id: 2, title: 'Categoria 2', url: require('@/assets/images/animales.jpeg') },
+          { id: 3, title: 'Categoria 3', url: require('@/assets/images/colores.jpeg') },
+          { id: 4, title: 'Categoria 4', url: require('@/assets/images/semana.jpeg') },
+          { id: 5, title: 'Categoria 5', url: require('@/assets/images/deportes.jpeg') }
         ]
       }
     }
