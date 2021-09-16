@@ -58,6 +58,11 @@
           { title: 'Actividad 5', url: require('@/assets/images/pan.jpeg') }
         ]
       }
+    },
+    methods: {
+      info (value) {
+        console.log(value)
+      }
     }
   }
 </script>
