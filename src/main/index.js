@@ -23,7 +23,7 @@ function createWindow () {
   BrowserWindow.addDevToolsExtension('node_modules/vue-devtools/vender')
 
   mainWindow = new BrowserWindow({
-    height: 563,
+    height: 850,
     useContentSize: true,
     width: 1000
   })
