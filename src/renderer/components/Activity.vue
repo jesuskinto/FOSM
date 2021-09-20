@@ -19,13 +19,21 @@
             <figure class="image">
               <img id="slider" v-bind:src="carousel.url" class="is-rounded" alt="">
             </figure>
-            <b-input :placeholder="carousel.title" id="input" v-model="message"></b-input>
-            <p>Escribe la Palabra</p>
+            <b-field label="¿Adivina la Palabra?" id="input" :type="valor">
+            <!-- 
+              is-success, is-danger, 
+            -->
+            <b-input :placeholder="carousel.title" maxlength="10" v-model="message"></b-input>
+            </b-field >
+            <p>El mensaje es: {{ database() }}</p>
             <br>
-            <p>El mensaje es: {{ message }}</p>
-            <br>
-            <p><a href="#arrow">Ayuda</a></p>
+            <button @click="help" class="button is-danger">Ayuda</button>
+            <figure class="image">
+              <img id="pista" v-bind:src="pista" class="" alt="">
+            </figure>
           </div>
+
+
         </section>
       </b-carousel-item>
   </b-carousel>
@@ -50,6 +58,17 @@
         pauseType: 'is-primary',
         interval: 3000,
         message: '',
+        valor: '',
+        resultado: '',
+        slider: 0,
+        pista: '',
+        json: [
+          { grado: 0, Categoria: 1, Actividad: 1, Palabra: 'Agua', ayuda: require('@/assets/images/A.png') },
+          { grado: 0, Categoria: 1, Actividad: 2, Palabra: 'Arepa', ayuda: require('@/assets/images/arepa.jpeg') },
+          { grado: 0, Categoria: 1, Actividad: 3, Palabra: 'Jugo', ayuda: require('@/assets/images/jugo.jpeg') },
+          { grado: 0, Categoria: 1, Actividad: 4, Palabra: 'Leche', ayuda: require('@/assets/images/leche.jpeg') },
+          { grado: 0, Categoria: 1, Actividad: 5, Palabra: 'Pan', ayuda: require('@/assets/images/pan.jpeg') }
+        ],
         carousels: [
           { title: 'Actividad 1', url: require('@/assets/images/agua.jpeg') },
           { title: 'Actividad 2', url: require('@/assets/images/arepa.jpeg') },
@@ -61,7 +80,27 @@
     },
     methods: {
       info (value) {
-        console.log(value)
+        this.slider = value
+        this.message = ''
+        this.pista = ''
+      },
+      database (message) {
+        console.log('slider', this.slider)
+        if (this.message === '') {
+          this.resultado = ''
+          this.valor = ''
+        } else if (this.message === this.json[this.slider].Palabra) {
+          this.resultado = 'Correcto'
+          this.valor = 'is-success'
+        } else {
+          this.resultado = 'Incorrecto'
+          this.valor = 'is-danger'
+        }
+        return this.resultado
+      },
+      help () {
+        console.log('Ayuda')
+        this.pista = this.json[this.slider].ayuda
       }
     }
   }
@@ -83,6 +122,9 @@
 }
 #input {
   margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+}
+#pista {
+  margin-top: 20px;
 }
 </style>
