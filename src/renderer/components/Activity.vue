@@ -1,42 +1,57 @@
 <template>
   <div>
     <BackNavbar path="/level" />
-    <b-carousel
-      v-model="carousel"
-      :animated="animated"
-      :has-drag="drag"
-      :autoplay="autoPlay"
-      :pause-hover="pauseHover"
-      :pause-info="pauseInfo"
-      :pause-info-type="pauseType"
-      :interval="interval"
-      :repeat="repeat"
-      @change="info($event)">
-      <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
-        <section class="hero is-medium is-bold">
-          <div class="hero-body has-text-centered" style="padding-top: 50px;">
-            <h1 class="title">{{carousel.title}}</h1>
+    <div class="box has-text-centered">
+      <b-progress type="is-info" :value="getProgressValue" />
+      <b-carousel
+        v-model="slide"
+        animated="slide"
+        :has-drag="false"
+        :autoplay="false"
+        :repeat="false"
+        :indicator="false"
+        :arrow="false"
+        pause-info-type="is-primary">
+        <b-carousel-item v-for="item in items" :key="item.index">
+          <div>
+            <h1 class="title">{{item.title}}</h1>
             <figure class="image">
-              <img id="slider" v-bind:src="carousel.url" class="is-rounded" alt="">
+              <img :src="require(`@/assets/images/${item.image}`)" alt="">
             </figure>
-            <b-field label="¿Adivina la Palabra?" id="input" :type="valor">
-            <!-- 
-              is-success, is-danger, 
-            -->
-            <b-input :placeholder="carousel.title" maxlength="10" v-model="message"></b-input>
-            </b-field >
-            <p>El mensaje es: {{ database() }}</p>
-            <br>
-            <button @click="help" class="button is-danger">Ayuda</button>
-            <figure class="image">
-              <img id="pista" v-bind:src="pista" class="" alt="">
-            </figure>
+            <hr/>
+            <p class="title is-6">¿Adivina la Palabra?</p>
+            <b-field grouped :type="getValid">
+              <b-input v-model="value" @keyup.native.enter="isValid(item.answer)"  placeholder="introduce la palabra" expanded />
+              <p class="control">
+                <b-button @click="isValid(item.answer)" :type="getValid" class="button is-primary">{{ getButtonMessage }}</b-button>
+              </p>
+            </b-field>
+            <hr/>
+            <b-button size="is-small"
+              @click="setHelp(item.answer)"
+              icon-left="question-circle">
+              Pista
+            </b-button>
+            <h4>{{ help_value }}</h4>
           </div>
-
-
-        </section>
-      </b-carousel-item>
-  </b-carousel>
+        </b-carousel-item>
+        <b-carousel-item>
+          <div>
+            <h1 class="title">¡Felicidades!</h1>
+            <figure class="image">
+              <img :src="require('@/assets/images/aplauso.jpg')" alt="">
+            </figure>
+            <p>Completaste esta actividad con exito</p>
+            <hr/>
+            <b-button
+              @click="$router.go(-1)"
+              icon-left="arrow-left">
+              Volver
+            </b-button>
+          </div>
+        </b-carousel-item>
+      </b-carousel>
+    </div>
   </div>
 </template>
 
@@ -48,73 +63,61 @@
     name: 'level',
     data () {
       return {
-        carousel: 0,
-        animated: 'slide',
-        drag: false,
-        autoPlay: false,
-        pauseHover: false,
-        pauseInfo: false,
-        repeat: false,
-        pauseType: 'is-primary',
-        interval: 3000,
-        message: '',
-        valor: '',
-        resultado: '',
-        slider: 0,
-        pista: '',
-        json: [
-          { grado: 0, Categoria: 1, Actividad: 1, Palabra: 'Agua', ayuda: require('@/assets/images/A.png') },
-          { grado: 0, Categoria: 1, Actividad: 2, Palabra: 'Arepa', ayuda: require('@/assets/images/arepa.jpeg') },
-          { grado: 0, Categoria: 1, Actividad: 3, Palabra: 'Jugo', ayuda: require('@/assets/images/jugo.jpeg') },
-          { grado: 0, Categoria: 1, Actividad: 4, Palabra: 'Leche', ayuda: require('@/assets/images/leche.jpeg') },
-          { grado: 0, Categoria: 1, Actividad: 5, Palabra: 'Pan', ayuda: require('@/assets/images/pan.jpeg') }
-        ],
-        carousels: [
-          { title: 'Actividad 1', url: require('@/assets/images/agua.jpeg') },
-          { title: 'Actividad 2', url: require('@/assets/images/arepa.jpeg') },
-          { title: 'Actividad 3', url: require('@/assets/images/jugo.jpeg') },
-          { title: 'Actividad 4', url: require('@/assets/images/leche.jpeg') },
-          { title: 'Actividad 5', url: require('@/assets/images/pan.jpeg') }
+        help_value: '',
+        value: '',
+        slide: 0,
+        valid: '',
+        items: [
+          { index: 0, answer: 'Agua', image: 'agua.jpeg' },
+          { index: 1, answer: 'Arepa', image: 'arepa.jpeg' },
+          { index: 2, answer: 'Jugo', image: 'jugo.jpeg' },
+          { index: 3, answer: 'Leche', image: 'leche.jpeg' },
+          { index: 4, answer: 'Pan', image: 'pan.jpeg' }
         ]
       }
     },
+    computed: {
+      getProgressValue () {
+        return this.slide * 100 / this.items.length
+      },
+      getButtonMessage () {
+        if (this.valid) return 'Siguiente'
+        return 'Verificar'
+      },
+      getValid () {
+        if (this.valid === true) return 'is-success'
+        if (this.valid === false) return 'is-danger'
+        return ''
+      }
+    },
     methods: {
-      info (value) {
-        this.slider = value
-        this.message = ''
-        this.pista = ''
-      },
-      database (message) {
-        console.log('slider', this.slider)
-        if (this.message === '') {
-          this.resultado = ''
-          this.valor = ''
-        } else if (this.message === this.json[this.slider].Palabra) {
-          this.resultado = 'Correcto'
-          this.valor = 'is-success'
-        } else {
-          this.resultado = 'Incorrecto'
-          this.valor = 'is-danger'
+      isValid (answer) {
+        if (this.valid) {
+          this.nextSlide()
+          return
         }
-        return this.resultado
+        this.valid = answer.toLowerCase() === this.value.toLowerCase()
       },
-      help () {
-        console.log('Ayuda')
-        this.pista = this.json[this.slider].ayuda
+      nextSlide () {
+        this.slide += 1
+        this.clean()
+      },
+      clean () {
+        this.help_value = ''
+        this.value = ''
+        this.valid = ''
+      },
+      setHelp (anwser) {
+        if (this.help_value.length >= anwser.length) this.help_value = ''
+        this.help_value = anwser.slice(0, this.help_value.length + 1)
       }
     }
   }
 </script>
 
-<style>
+<style scoped>
 .cont {
   margin-top: 10px;
-}
-
-.image {
-  height: 256px;
-  max-width: 256px;
-  margin: auto;
 }
 
 #slider {
@@ -126,5 +129,20 @@
 }
 #pista {
   margin-top: 20px;
+}
+
+.image img {
+  height: 250px;
+}
+
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 590px;
+  width: 500px;
 }
 </style>
