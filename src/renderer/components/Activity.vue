@@ -52,16 +52,6 @@
         </b-carousel-item>
       </b-carousel>
     </div>
-    <b-button size="is-small"
-      @click="onSaveProgress"
-      icon-left="question-circle">
-      onSave
-    </b-button>
-    <b-button size="is-small"
-      @click="onOpenProgress"
-      icon-left="question-circle">
-      onOpen
-    </b-button>
   </div>
 </template>
 
