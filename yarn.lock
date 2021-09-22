@@ -3423,6 +3423,14 @@ electron-publish@20.44.4:
     lazy-val "^1.0.4"
     mime "^2.4.4"
 
+electron-storage@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/electron-storage/-/electron-storage-1.0.7.tgz#f088b689da90414e4f95552083896eed53fde75f"
+  integrity sha1-8Ii2idqQQU5PlVUgg4lu7VP9518=
+  dependencies:
+    mkdirp "^0.5.1"
+    rimraf "^2.5.4"
+
 electron-store@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/electron-store/-/electron-store-2.0.0.tgz#1035cca2a95409d1f54c7466606345852450d64a"
@@ -8912,6 +8920,11 @@ uniq@^1.0.1:
   resolved "https://registry.yarnpkg.com/uniq/-/uniq-1.0.1.tgz#b31c5ae8254844a3a8281541ce2b04b865a734ff"
   integrity sha1-sxxa6CVIRKOoKBVBzisEuGWnNP8=
 
+uniqid@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/uniqid/-/uniqid-5.4.0.tgz#4e17bfcab66dfe33563411ae0c801f46ef964e66"
+  integrity sha512-38JRbJ4Fj94VmnC7G/J/5n5SC7Ab46OM5iNtSstB/ko3l1b5g7ALt4qzHFgGciFkyiRNtDXtLNb+VsxtMSE77A==
+
 uniqs@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/uniqs/-/uniqs-2.0.0.tgz#ffede4b36b25290696e6e165d4a59edb998e6b02"
@@ -9133,6 +9146,11 @@ vue-devtools@^5.1.4:
   version "5.1.4"
   resolved "https://registry.yarnpkg.com/vue-devtools/-/vue-devtools-5.1.4.tgz#265a7458ade2affb291739176964256b597fa302"
   integrity sha512-EBAEXvAHUinsPzoSiElps0JgtLXUnJXKIJbP6nfdz/R63VdKBMfJ34/rFip+4iT7iMbVS5lA4W6N1jq4Hj4LCg==
+
+vue-electron-storage@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/vue-electron-storage/-/vue-electron-storage-1.0.1.tgz#b418fc4a7394b6eaa8ca52d1b855d7c963efe4f5"
+  integrity sha1-tBj8SnOUtuqoylLRuFXXyWPv5PU=
 
 vue-electron@^1.0.6:
   version "1.0.6"
