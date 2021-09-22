@@ -10,7 +10,6 @@
       <router-link :to="{ name: 'level', params: { id: 6 } }" class="box" tag="div" >Quinto Grado</router-link>
       <router-link :to="{ name: 'level', params: { id: 7 } }" class="box" tag="div" >Sexto Grado</router-link>
     </div>
-    <Footer />
   </div>
 </template>
 
