@@ -2,7 +2,7 @@
   <div>
     <BackNavbar path="/level" />
     <div class="box has-text-centered">
-      <b-progress type="is-info" :value="getProgressValue" />
+      <b-progress :type="getProgressValue === 100 ? 'is-success' : 'is-info'" :value="getProgressValue" />
       <b-carousel
         v-model="slide"
         animated="slide"
@@ -52,6 +52,16 @@
         </b-carousel-item>
       </b-carousel>
     </div>
+    <b-button size="is-small"
+      @click="onSaveProgress"
+      icon-left="question-circle">
+      onSave
+    </b-button>
+    <b-button size="is-small"
+      @click="onOpenProgress"
+      icon-left="question-circle">
+      onOpen
+    </b-button>
   </div>
 </template>
 
@@ -136,12 +146,7 @@
 }
 
 .box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
+  margin: 20px auto;
   height: 590px;
   width: 500px;
 }

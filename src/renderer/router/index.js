@@ -16,6 +16,11 @@ export default new Router({
       component: require('@/components/Level').default
     },
     {
+      path: '/profile',
+      name: 'profile',
+      component: require('@/components/Profile').default
+    },
+    {
       path: '/activity',
       name: 'activity',
       component: require('@/components/Activity').default

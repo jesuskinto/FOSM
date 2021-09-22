@@ -1,20 +1,6 @@
 <template>
   <div>
-    <b-navbar>
-      <template #brand>
-        <b-navbar-item tag="router-link" :to="{ path: '/' }">
-          <img
-            src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
-            alt="Lightweight UI components for Vue.js based on Bulma"
-          >
-        </b-navbar-item>
-      </template>
-      <template #end>
-        <b-navbar-item href="#">
-          Acerca de
-        </b-navbar-item>
-      </template>
-    </b-navbar>
+    <Navbar />
     <div class="p20">
       <router-link :to="{ name: 'level', params: { id: 1 } }" class="box" tag="div" >Prescolar</router-link>
       <router-link :to="{ name: 'level', params: { id: 2 } }" class="box" tag="div" >Primer Grado</router-link>
@@ -24,11 +10,15 @@
       <router-link :to="{ name: 'level', params: { id: 6 } }" class="box" tag="div" >Quinto Grado</router-link>
       <router-link :to="{ name: 'level', params: { id: 7 } }" class="box" tag="div" >Sexto Grado</router-link>
     </div>
-   </div>
+    <Footer />
+  </div>
 </template>
 
 <script>
+  import Footer from './Common/Footer'
+  import Navbar from './Common/Navbar'
   export default {
+    components: { Footer, Navbar },
     name: 'home'
   }
 </script>

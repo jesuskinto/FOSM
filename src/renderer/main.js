@@ -4,6 +4,7 @@ import App from './App'
 import router from './router'
 import store from './store'
 import Buefy from 'buefy'
+import VueElectronStorage from 'vue-electron-storage'
 import 'buefy/dist/buefy.css'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -16,6 +17,7 @@ Vue.component('vue-fontawesome', FontAwesomeIcon)
 
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
 Vue.config.productionTip = false
+Vue.use(VueElectronStorage)
 Vue.use(Buefy, {
   defaultIconComponent: 'vue-fontawesome',
   defaultIconPack: 'fas',
