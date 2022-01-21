@@ -12,14 +12,15 @@
 
 <script>
   export default {
-    name: 'footer'
+    name: 'fosm-footer'
   }
 </script>
 
 
 <style>
 .footer {
-  position: sticky;
+  position: fixed;
   bottom: 0;
+  width: 100%;
 }
 </style>

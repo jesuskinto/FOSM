@@ -2,8 +2,9 @@
   <div class="card">
     <router-link :to="to">
       <div class="card-image">
-        <figure class="image is-4by3">
-          <img v-bind:src="url" alt="">
+        <figure
+         class="image is-4by3">
+          <img :src="require(`@/assets/${imgUrl}`)" alt="category-image">
           <b-progress class="custom-progress" :type="progress === 100 ? 'is-success' : 'is-info'" :value="progress" size="is-small" />
         </figure>
       </div>
@@ -13,16 +14,13 @@
         </div>
       </div>
     </router-link>
-    <BlockUi v-if="isblock"/>
   </div>
 </template>
 
 <script>
-  import BlockUi from './BlockUi'
   export default {
-    components: { BlockUi },
     name: 'card',
-    props: ['title', 'url', 'to', 'isblock', 'progress']
+    props: ['title', 'imgUrl', 'to', 'progress']
   }
 </script>
 

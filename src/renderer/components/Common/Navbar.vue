@@ -2,10 +2,8 @@
   <b-navbar>
     <template #brand>
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
-        <img
-          src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
-          alt="Lightweight UI components for Vue.js based on Bulma"
-        >
+        <img class="logo" :src="require(`@/assets/logo.png`)" alt="logo" />
+        FOSM
       </b-navbar-item>
     </template>
     <template #end>
@@ -17,14 +15,18 @@
 </template>
 
 <script>
-  export default {
-    name: 'navbar'
-  }
+export default {
+  name: 'navbar'
+}
 </script>
 
 <style>
 .navbar {
   position: sticky;
   top: 0;
+}
+
+.logo {
+  margin-right: 10px;
 }
 </style>

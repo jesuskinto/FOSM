@@ -4,39 +4,56 @@
     <div class="box">
       <section>
         <b-field label="Nombre">
-          <b-input v-model="user.first_name"></b-input>
+          <b-input v-model="data.user.first_name"></b-input>
         </b-field>
         <b-field label="Apellido">
-          <b-input v-model="user.last_name"></b-input>
+          <b-input v-model="data.user.last_name"></b-input>
         </b-field>
-        <b-button @click="saveUser">Actualizar Perfil</b-button>
+        <b-button @click="updateData">Actualizar Perfil</b-button>
       </section>
+    </div>
+    <div class="box">
+      <b-button
+        type="is-danger"
+        outlined
+        @click="resetProgress">
+          Reiniciar progreso
+      </b-button>
     </div>
   </div>
 </template>
 
 
 <script>
+import initialData from '../initialData.json'
 import BackNavbar from './Common/BackNavbar'
+import variables from '../variables'
+const { storeID } = variables
+
 export default {
   components: { BackNavbar },
   name: 'profile',
   data () {
     return {
-      user: {
-        first_name: '',
-        last_name: '',
-        date: ''
-      }
+      data: initialData
     }
   },
   mounted () {
-    this.getUser()
+    this.getData()
   },
   methods: {
-    getUser () {
-      this.$storage.get('fosm-progress', (error, data) => {
-        if (!error && data.user) this.user = data.user
+    getData () {
+      const loading = this.$buefy.loading.open()
+      this.$storage.get(storeID, (error, data) => {
+        loading.close()
+        if (error) this.globalErrorStore(error)
+        else { this.data = data }
+      })
+    },
+    resetProgress () {
+      this.$storage.set(storeID, initialData, error => {
+        if (error) this.globalErrorStore(error)
+        else this.getData()
       })
     },
     success () {
@@ -46,23 +63,10 @@ export default {
       })
       this.$router.go(-1)
     },
-    createUser () {
-      this.$storage.set('fosm-progress', { user: this.user }, error => {
-        if (error) throw error
+    updateData () {
+      this.$storage.set(storeID, this.data, error => {
+        if (error) this.globalErrorStore(error)
         this.success()
-      })
-    },
-    updateUser (data) {
-      data.user = this.user
-      this.$storage.set('fosm-progress', data, error => {
-        if (error) throw error
-        this.success()
-      })
-    },
-    saveUser () {
-      this.$storage.get('fosm-progress', (error, data) => {
-        if (error) this.createUser()
-        else this.updateUser(data)
       })
     }
   }

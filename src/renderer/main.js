@@ -2,7 +2,6 @@ import Vue from 'vue'
 
 import App from './App'
 import router from './router'
-import store from './store'
 import Buefy from 'buefy'
 import VueElectronStorage from 'vue-electron-storage'
 import 'buefy/dist/buefy.css'
@@ -34,10 +33,21 @@ Vue.use(Buefy, {
   }
 })
 
+Vue.mixin({
+  methods: {
+    globalErrorStore: function (error) {
+      this.$buefy.toast.open({
+        message: 'Error al consultar el store!',
+        type: 'is-warning'
+      })
+      console.log(error)
+    }
+  }
+})
+
 /* eslint-disable no-new */
 new Vue({
   components: { App },
   router,
-  store,
   template: '<App/>'
 }).$mount('#app')

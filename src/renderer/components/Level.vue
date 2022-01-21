@@ -3,13 +3,16 @@
     <BackNavbar path="/" />
     <div class="container">
       <div class="columns  is-multiline is-centered cont">
-        <div v-for="item in items" :key="item.id" class="column is-narrow cont">
+        <div
+          class="column is-narrow cont"
+          v-for="category in categories"
+          :key="category.id"
+          >
           <Card
-            :title="item.title"
-            :url="item.url"
-            :to="{ name: 'activity', params: { id: item.id } }"
-            :progress="item.progress"
-            :isblock="item.isblock"
+            :title="category.title"
+            :imgUrl="category.imgUrl"
+            :to="{ name: 'activity', params: { category } }"
+            :progress="category.progress"
           />
         </div>
       </div>
@@ -21,19 +24,35 @@
 <script>
   import Card from './Common/Card'
   import BackNavbar from './Common/BackNavbar'
+  import variables from '../variables'
+  const { storeID } = variables
+  
   export default {
     components: { Card, BackNavbar },
     name: 'level',
     data () {
       return {
-        items: [
-          { id: 1, title: 'Categoria 1', url: require('@/assets/images/comida.jpeg'), isblock: false, progress: 100 },
-          { id: 2, title: 'Categoria 2', url: require('@/assets/images/animales.jpeg'), isblock: false, progress: 60 },
-          { id: 3, title: 'Categoria 3', url: require('@/assets/images/colores.jpeg'), isblock: true, progress: 0 },
-          { id: 4, title: 'Categoria 4', url: require('@/assets/images/semana.jpeg'), isblock: true, progress: 0 },
-          { id: 5, title: 'Categoria 5', url: require('@/assets/images/deportes.jpeg'), isblock: true, progress: 0 }
-        ]
+        categories: [],
+        isLoading: true
       }
+    },
+    methods: {
+      getData () {
+        const loading = this.$buefy.loading.open()
+        this.$storage.get(storeID, (error, data) => {
+          loading.close()
+          if (error) this.globalErrorStore(error)
+          else {
+            const { id } = this.$route.query
+            const categories = data.levels.find(level => level.id === Number(id)).categories || []
+            console.log(categories)
+            this.categories = categories
+          }
+        })
+      }
+    },
+    mounted () {
+      this.getData()
     }
   }
 </script>

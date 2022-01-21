@@ -1,6 +1,6 @@
 <template>
   <div>
-    <BackNavbar path="/level" />
+    <BackNavbar />
     <div class="box has-text-centered">
       <b-progress :type="getProgressValue === 100 ? 'is-success' : 'is-info'" :value="getProgressValue" />
       <b-carousel
