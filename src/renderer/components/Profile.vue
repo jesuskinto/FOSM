@@ -1,6 +1,9 @@
 <template>
   <div>
     <BackNavbar path="/" />
+    <b-button class="reboot-button" type="is-danger" size="is-small" @click="resetProgress">
+      Reiniciar Sistema
+    </b-button>
     <div class="box">
       <section>
         <b-field label="Nombre">
@@ -11,14 +14,6 @@
         </b-field>
         <b-button @click="updateData">Actualizar Perfil</b-button>
       </section>
-    </div>
-    <div class="box">
-      <b-button
-        type="is-danger"
-        outlined
-        @click="resetProgress">
-          Reiniciar progreso
-      </b-button>
     </div>
   </div>
 </template>

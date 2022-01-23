@@ -2,7 +2,10 @@
   <div>
     <BackNavbar />
     <div class="box has-text-centered">
-      <b-progress :type="getProgressValue === 100 ? 'is-success' : 'is-info'" :value="getProgressValue" />
+      <b-progress
+        :type="getProgressValue === 100 ? 'is-success' : 'is-info'"
+        :value="getProgressValue"
+      />
       <b-carousel
         v-model="slide"
         animated="slide"
@@ -12,36 +15,48 @@
         :indicator="false"
         :arrow="false"
         pause-info-type="is-primary">
-        <b-carousel-item v-for="item in items" :key="item.index">
+        <b-carousel-item v-for="activity in activities" :key="activity.id">
           <div>
-            <h1 class="title">{{item.title}}</h1>
+            <h1 class="title">{{activity.title}}</h1>
             <figure class="image">
-              <img :src="require(`@/assets/images/${item.image}`)" alt="">
+              <img :src="require(`@/assets/images/${activity.imgUrl}`)" alt="">
             </figure>
             <hr/>
             <p class="title is-6">¿Adivina la Palabra?</p>
             <b-field grouped :type="getValid">
-              <b-input v-model="value" @keyup.native.enter="isValid(item.answer)"  placeholder="introduce la palabra" expanded />
+              <b-input
+                v-model="value"
+                @keyup.native.enter="isValid(activity)"
+                placeholder="introduce la palabra"
+                expanded
+              />
               <p class="control">
-                <b-button @click="isValid(item.answer)" :type="getValid" class="button is-primary">{{ getButtonMessage }}</b-button>
+                <b-button
+                  class="button is-primary"
+                  :type="getValid"
+                  @click="isValid(activity)"
+                >
+                  {{ getButtonMessage }}
+                </b-button>
               </p>
             </b-field>
             <hr/>
-            <b-button size="is-small"
-              @click="setHelp(item.answer)"
-              icon-left="question-circle">
+            <b-button
+              size="is-small"
+              icon-left="question-circle"
+              @click="setHelp(activity.answers[0])">
               Pista
             </b-button>
-            <h4>{{ help_value }}</h4>
+            <h4 class="tip">{{ help_value }}</h4>
           </div>
         </b-carousel-item>
         <b-carousel-item>
           <div>
             <h1 class="title">¡Felicidades!</h1>
             <figure class="image">
-              <img :src="require('@/assets/images/aplauso.jpg')" alt="">
+              <img :src="require('@/assets/images/clap.jpg')" alt="clap image">
             </figure>
-            <p>Completaste esta actividad con exito</p>
+            <p>Completaste esta actividad con éxito</p>
             <hr/>
             <b-button
               @click="$router.go(-1)"
@@ -67,18 +82,12 @@
         value: '',
         slide: 0,
         valid: '',
-        items: [
-          { index: 0, answer: 'Agua', image: 'agua.jpeg' },
-          { index: 1, answer: 'Arepa', image: 'arepa.jpeg' },
-          { index: 2, answer: 'Jugo', image: 'jugo.jpeg' },
-          { index: 3, answer: 'Leche', image: 'leche.jpeg' },
-          { index: 4, answer: 'Pan', image: 'pan.jpeg' }
-        ]
+        activities: this.$route.params.activities || []
       }
     },
     computed: {
       getProgressValue () {
-        return this.slide * 100 / this.items.length
+        return this.slide * 100 / this.activities.length
       },
       getButtonMessage () {
         if (this.valid) return 'Siguiente'
@@ -91,12 +100,21 @@
       }
     },
     methods: {
-      isValid (answer) {
+      saveProgress () {
+
+      },
+      isValid (activity) {
+        const { id, answers } = activity
         if (this.valid) {
+          this.saveProgress(id)
           this.nextSlide()
           return
         }
-        this.valid = answer.toLowerCase() === this.value.toLowerCase()
+
+        for (const answer of answers) {
+          this.valid = answer.toLowerCase() === this.value.toLowerCase()
+          if (this.valid) return
+        }
       },
       nextSlide () {
         this.slide += 1
@@ -139,5 +157,9 @@
   margin: 20px auto;
   height: 590px;
   width: 500px;
+}
+
+.tip {
+  margin-top: 5px;
 }
 </style>

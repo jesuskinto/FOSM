@@ -12,12 +12,32 @@
           "id": 0,
           "title": "Alimentos",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
+          "imgUrl": "level_0_category_0.jpg",
           "activities": [
             {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
+              "id": 0,
+              "answers": ["Carne", "Bistec"],
+              "imgUrl": "level_0_category_0_activity_0.png"
+            },
+            {
+              "id": 1,
+              "answers": ["Pasta"],
+              "imgUrl": "level_0_category_0_activity_1.png"
+            },
+            {
+              "id": 2,
+              "answers": ["Pollo"],
+              "imgUrl": "level_0_category_0_activity_2.png"
+            },
+            {
+              "id": 3,
+              "answers": ["Queso"],
+              "imgUrl": "level_0_category_0_activity_3.png"
+            },
+            {
+              "id": 4,
+              "answers": ["Pastel", "Torta"],
+              "imgUrl": "level_0_category_0_activity_4.png"
             }
           ]
         },
@@ -25,365 +45,197 @@
           "id": 1,
           "title": "Animales",
           "progress": 0,
-          "imgUrl": "level_0/category_1/img_category.png",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_1.png",
+          "activities": []
         },
         { 
           "id": 2,
           "title": "Arboles",
           "progress": 0,
-          "imgUrl": "level_0/category_2/img_category.png",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_2.png",
+          "activities": []
         },
         { 
           "id": 3,
           "title": "Colores",
           "progress": 0,
-          "imgUrl": "level_0/category_3/img_category.jpeg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_3.jpeg",
+          "activities": []
         },
         { 
           "id": 4,
           "title": "Días de la semana",
           "progress": 0,
-          "imgUrl": "level_0/category_4/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_4.jpg",
+          "activities": []
         },
         { 
           "id": 5,
           "title": "Enfermedades",
           "progress": 0,
-          "imgUrl": "level_0/category_5/img_category.png",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_5.png",
+          "activities": []
         },
         { 
           "id": 6,
           "title": "Figuras geométricas",
           "progress": 0,
-          "imgUrl": "level_0/category_6/img_category.png",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_6.png",
+          "activities": []
         },
         { 
           "id": 7,
           "title": "Frutas",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_7.jpeg",
+          "activities": []
         },
         { 
           "id": 8,
           "title": "Juguetes/juegos/deportes",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_8.jpeg",
+          "activities": []
         },
         { 
           "id": 9,
           "title": "Lugares",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_9.jpeg",
+          "activities": []
         },
         { 
           "id": 10,
           "title": "Lugares de Merida",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_10.jpg",
+          "activities": []
         },
         { 
           "id": 11,
           "title": "Medios de transporte",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_11.jpg",
+          "activities": []
         },
         { 
           "id": 12,
           "title": "Meses del año",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_12.png",
+          "activities": []
         },
         { 
           "id": 13,
           "title": "Noción de cantidad",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_13.jpg",
+          "activities": []
         },
         { 
           "id": 14,
           "title": "Noción de tamaño",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_14.jpeg",
+          "activities": []
         },
         { 
           "id": 15,
           "title": "Noción espacial",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_15.jpg",
+          "activities": []
         },
         { 
           "id": 16,
           "title": "Noción temporal",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_16.jpg",
+          "activities": []
         },
         { 
           "id": 17,
           "title": "Números",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_17.jpeg",
+          "activities": []
         },
         { 
           "id": 18,
           "title": "Objetos del hogar",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_18.jpg",
+          "activities": []
         },
         { 
           "id": 19,
           "title": "Oficios y profesiones",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_19.jpg",
+          "activities": []
         },
         { 
           "id": 20,
           "title": "Partes del cuerpo",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_20.jpg",
+          "activities": []
         },
         { 
           "id": 21,
           "title": "Personajes historicos",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_21.jpg",
+          "activities": []
         },
         { 
           "id": 22,
           "title": "Personas",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_22.jpg",
+          "activities": []
         },
         { 
           "id": 23,
           "title": "Ropa",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_23.jpeg",
+          "activities": []
         },
         { 
           "id": 24,
           "title": "Simbolos",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_24.jpeg",
+          "activities": []
         },
         { 
           "id": 25,
           "title": "Sintomas",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_25.png",
+          "activities": []
         },
         { 
           "id": 26,
           "title": "Utensilios de la cocina",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_26.jpg",
+          "activities": []
         },
         { 
           "id": 27,
           "title": "Útiles escolares",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_27.jpeg",
+          "activities": []
         },
         { 
           "id": 28,
           "title": "Verduras y hortalizas",
           "progress": 0,
-          "imgUrl": "level_0/category_0/img_category.jpg",
-          "activities": [
-            {
-              "complete": false,
-              "answers": ["Agua"],
-              "imgUrl": "Agua.png"
-            }
-          ]
+          "imgUrl": "level_0_category_28.jpeg",
+          "activities": []
         }
       ]
     }

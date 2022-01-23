@@ -4,13 +4,13 @@
       <div class="card-image">
         <figure
          class="image is-4by3">
-          <img :src="require(`@/assets/${imgUrl}`)" alt="category-image">
+          <img :src="require(`@/assets/images/${imgUrl}`)" alt="category-image">
           <b-progress class="custom-progress" :type="progress === 100 ? 'is-success' : 'is-info'" :value="progress" size="is-small" />
         </figure>
       </div>
       <div class="card-content">
         <div class="media-content">
-          <p class="subtitle is-6">{{ title }}</p>
+          <p class="subtitle is-6" :title="title">{{ title }}</p>
         </div>
       </div>
     </router-link>
@@ -29,7 +29,11 @@
   min-width: 200px;
 }
 .subtitle {
-  text-align: center;
+  text-align: left  ;
+  max-width: 160px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 </style>
 

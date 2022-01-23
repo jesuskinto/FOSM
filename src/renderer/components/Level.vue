@@ -11,7 +11,7 @@
           <Card
             :title="category.title"
             :imgUrl="category.imgUrl"
-            :to="{ name: 'activity', params: { category } }"
+            :to="{ name: 'activity', params: { activities: category.activities } }"
             :progress="category.progress"
           />
         </div>
@@ -45,7 +45,6 @@
           else {
             const { id } = this.$route.query
             const categories = data.levels.find(level => level.id === Number(id)).categories || []
-            console.log(categories)
             this.categories = categories
           }
         })

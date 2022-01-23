@@ -2,7 +2,7 @@
   <b-navbar>
     <template #brand>
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
-        <img class="logo" :src="require(`@/assets/logo.png`)" alt="logo" />
+        <img class="logo" :src="require(`@/assets/images/logo.png`)" alt="logo" />
         FOSM
       </b-navbar-item>
     </template>
