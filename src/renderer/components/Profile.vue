@@ -20,7 +20,7 @@
 
 
 <script>
-import initialData from '../initialData.json'
+import initialData from '../data'
 import BackNavbar from './Common/BackNavbar'
 import variables from '../variables'
 const { storeID } = variables

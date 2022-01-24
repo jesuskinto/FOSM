@@ -5,7 +5,7 @@
         <figure
          class="image is-4by3">
           <img :src="require(`@/assets/images/${imgUrl}`)" alt="category-image">
-          <b-progress class="custom-progress" :type="progress === 100 ? 'is-success' : 'is-info'" :value="progress" size="is-small" />
+          <b-progress class="custom-progress" :type="complete ? 'is-success' : 'is-info'" :value="complete ? 100 : 0" size="is-small" />
         </figure>
       </div>
       <div class="card-content">
@@ -20,7 +20,7 @@
 <script>
   export default {
     name: 'card',
-    props: ['title', 'imgUrl', 'to', 'progress']
+    props: ['title', 'imgUrl', 'to', 'complete']
   }
 </script>
 

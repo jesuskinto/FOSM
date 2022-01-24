@@ -59,7 +59,7 @@
             <p>Completaste esta actividad con éxito</p>
             <hr/>
             <b-button
-              @click="$router.go(-1)"
+              @click="goBack()"
               icon-left="arrow-left">
               Volver
             </b-button>
@@ -73,6 +73,9 @@
 
 <script>
   import BackNavbar from './Common/BackNavbar'
+  import variables from '../variables'
+  const { storeID } = variables
+
   export default {
     components: { BackNavbar },
     name: 'level',
@@ -82,7 +85,7 @@
         value: '',
         slide: 0,
         valid: '',
-        activities: this.$route.params.activities || []
+        activities: this.$route.params.category.activities || []
       }
     },
     computed: {
@@ -101,12 +104,32 @@
     },
     methods: {
       saveProgress () {
-
+        const loading = this.$buefy.loading.open()
+        this.$storage.get(storeID, (error, data) => {
+          loading.close()
+          if (error) this.globalErrorStore(error)
+          else {
+            const { levelId } = this.$route.params
+            const { id: categoryId } = this.$route.params.category
+            const categories = data.levels.find(level => level.id === Number(levelId)).categories || []
+            const category = categories.find(category => category.id === Number(categoryId))
+            category.complete = true
+            this.updateData(data)
+          }
+        })
+      },
+      updateData (data) {
+        this.$storage.set(storeID, data, error => {
+          if (error) this.globalErrorStore(error)
+          this.$router.go(-1)
+        })
+      },
+      goBack () {
+        this.saveProgress()
       },
       isValid (activity) {
-        const { id, answers } = activity
+        const { answers } = activity
         if (this.valid) {
-          this.saveProgress(id)
           this.nextSlide()
           return
         }

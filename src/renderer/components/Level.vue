@@ -11,8 +11,8 @@
           <Card
             :title="category.title"
             :imgUrl="category.imgUrl"
-            :to="{ name: 'activity', params: { activities: category.activities } }"
-            :progress="category.progress"
+            :to="{ name: 'activity', params: { category, levelId: $route.query.id } }"
+            :complete="category.complete"
           />
         </div>
       </div>

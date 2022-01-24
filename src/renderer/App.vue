@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import initialData from './initialData.json'
+  import initialData from './data'
   export default {
     name: 'fosm',
     mounted () {
