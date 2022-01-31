@@ -1,538 +1,938 @@
 {
-    "id": 2,
-    "title": "Segundo Grado",
-    "categories": [
-      {
-        "id": 0,
-        "title": "Alimentos",
-        "complete": false,
-        "imgUrl": "level_1_category_0.jpg",
-        "activities": [
-          {
-            "id": 0,
-            "answers": ["Agua"],
-            "imgUrl": "level_1_category_0_activity_0.png"
-          },
-          {
-            "id": 1,
-            "answers": ["Arepa"],
-            "imgUrl": "level_1_category_0_activity_1.jpeg"
-          },
-          {
-            "id": 2,
-            "answers": ["Jugo"],
-            "imgUrl": "level_1_category_0_activity_2.png"
-          },
-          {
-            "id": 3,
-            "answers": ["Leche"],
-            "imgUrl": "level_1_category_0_activity_3.png"
-          },
-          {
-            "id": 4,
-            "answers": ["Pan"],
-            "imgUrl": "level_1_category_0_activity_4.png"
-          }
-        ]
-      },
-      { 
-        "id": 1,
-        "title": "Animales",
-        "complete": false,
-        "imgUrl": "level_1_category_1.png",
-        "activities": [
-            {
-                "id": 0,
-                "answers": ["Gato"],
-                "imgUrl": "level_1_category_1_activity_0.png"
-              },
-              {
-                "id": 1,
-                "answers": ["Perro"],
-                "imgUrl": "level_1_category_1_activity_1.png"
-              },
-              {
-                "id": 2,
-                "answers": ["Pato"],
-                "imgUrl": "level_1_category_1_activity_2.png"
-              },
-              {
-                "id": 3,
-                "answers": ["Oso"],
-                "imgUrl": "level_1_category_1_activity_3.png"
-              }
-        ]
-      },
-      { 
-        "id": 2,
-        "title": "Arboles",
-        "complete": false,
-        "imgUrl": "level_0_category_2.png",
-        "activities": []
-      },
-      { 
-        "id": 3,
-        "title": "Colores",
-        "complete": false,
-        "imgUrl": "level_0_category_3.jpeg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Amarillo"],
-              "imgUrl": "level_1_category_3_activity_0.png"
-            },
-            {
-              "id": 1,
-              "answers": ["Azul"],
-              "imgUrl": "level_1_category_3_activity_1.png"
-            },
-            {
-              "id": 2,
-              "answers": ["Rojo"],
-              "imgUrl": "level_1_category_3_activity_2.png"
-            }
-          ]
-      },
-      { 
-        "id": 4,
-        "title": "Días de la semana",
-        "complete": false,
-        "imgUrl": "level_0_category_4.jpg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Lunes"],
-              "imgUrl": "level_1_category_4_activity_0.jpeg"
-            },
-            {
-              "id": 1,
-              "answers": ["Martes"],
-              "imgUrl": "level_1_category_4_activity_1.jpeg"
-            }
-          ]
-      },
-      { 
-        "id": 5,
-        "title": "Enfermedades",
-        "complete": false,
-        "imgUrl": "level_0_category_5.png",
-        "activities": []
-      },
-      { 
-        "id": 6,
-        "title": "Figuras geométricas",
-        "complete": false,
-        "imgUrl": "level_0_category_6.png",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Circulo"],
-              "imgUrl": "level_1_category_6_activity_0.png"
-            }
-          ]
-      },
-      { 
-        "id": 7,
-        "title": "Frutas",
-        "complete": false,
-        "imgUrl": "level_0_category_7.jpeg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Uva"],
-              "imgUrl": "level_1_category_7_activity_0.png"
-            },
-            {
-              "id": 1,
-              "answers": ["Coco"],
-              "imgUrl": "level_1_category_7_activity_1.png"
-            }
-          ]
-      },
-      { 
-        "id": 8,
-        "title": "Juguetes/juegos/deportes",
-        "complete": false,
-        "imgUrl": "level_0_category_8.jpeg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Pelota"],
-              "imgUrl": "level_1_category_8_activity_0.png"
-            },
-            {
-              "id": 1,
-              "answers": ["Muñeca"],
-              "imgUrl": "level_1_category_8_activity_1.png"
-            }
-          ]
-      },
-      { 
-        "id": 9,
-        "title": "Lugares",
-        "complete": false,
-        "imgUrl": "level_0_category_9.jpeg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Baño"],
-              "imgUrl": "level_1_category_9_activity_0.png"
-            },
-            {
-              "id": 1,
-              "answers": ["Casa"],
-              "imgUrl": "level_1_category_9_activity_1.png"
-            },
-            {
-              "id": 2,
-              "answers": ["Escuela"],
-              "imgUrl": "level_1_category_9_activity_2.png"
-            },
-            {
-              "id": 3,
-              "answers": ["Parque"],
-              "imgUrl": "level_1_category_9_activity_3.png"
-            }
-          ]
-      },
-      { 
-        "id": 10,
-        "title": "Lugares de Merida",
-        "complete": false,
-        "imgUrl": "level_0_category_10.jpg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Escuela","Ofelia Tancredi"],
-              "imgUrl": "level_1_category_10_activity_0.png"
-            },
-            {
-              "id": 1,
-              "answers": ["Zoológico","Zoologico"],
-              "imgUrl": "level_1_category_10_activity_1.png"
-            },
-            {
-              "id": 2,
-              "answers": ["Parque"],
-              "imgUrl": "level_1_category_10_activity_2.png"
-            }
-          ]
-      },
-        { 
-        "id": 11,
-        "title": "Medios de transporte",
-        "complete": false,
-        "imgUrl": "level_0_category_11.jpg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Avión","Avion"],
-              "imgUrl": "level_1_category_11_activity_0.png"
-            },
-            {
-              "id": 1,
-              "answers": ["Bus"],
-              "imgUrl": "level_1_category_11_activity_1.png"
-            },
-            {
-              "id": 2,
-              "answers": ["Carro"],
-              "imgUrl": "level_1_category_11_activity_2.png"
-            },
-            {
-              "id": 3,
-              "answers": ["Moto"],
-              "imgUrl": "level_1_category_11_activity_3.png"
-            }
-          ]
-      },
-      {
-        "id": 12,
-        "title": "Meses del año",
-        "complete": false,
-        "imgUrl": "level_0_category_12.png",
-        "activities": []
-      },
-      { 
-        "id": 13,
-        "title": "Noción de cantidad",
-        "complete": false,
-        "imgUrl": "level_0_category_13.jpg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Poco"],
-              "imgUrl": "level_1_category_13_activity_0.png"
-            },
-            {
-              "id": 1,
-              "answers": ["Mucho"],
-              "imgUrl": "level_1_category_13_activity_1.png"
-            },
-            {
-              "id": 2,
-              "answers": ["Nada","Vacio"],
-              "imgUrl": "level_1_category_13_activity_2.png"
-            }
-          ]
-      },
-      { 
-        "id": 14,
-        "title": "Noción de tamaño",
-        "complete": false,
-        "imgUrl": "level_0_category_14.jpeg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Grande"],
-              "imgUrl": "level_1_category_14_activity_0.png"
-            },
-            {
-              "id": 1,
-              "answers": ["Pequeño"],
-              "imgUrl": "level_1_category_14_activity_1.png"
-            },
-            {
-              "id": 2,
-              "answers": ["Mediano"],
-              "imgUrl": "level_1_category_14_activity_2.png"
-            },
-            {
-              "id": 3,
-              "answers": ["Corto"],
-              "imgUrl": "level_1_category_14_activity_3.png"
-            },
-            {
-              "id": 4,
-              "answers": ["Largo"],
-              "imgUrl": "level_1_category_14_activity_4.png"
-            },
-            {
-              "id": 5,
-              "answers": ["Alto"],
-              "imgUrl": "level_1_category_14_activity_5.jpeg"
-            },
-            {
-              "id": 6,
-              "answers": ["Bajo"],
-              "imgUrl": "level_1_category_14_activity_6.jpeg"
-            }
-          ]
-      },
-      { 
-        "id": 15,
-        "title": "Noción espacial",
-        "complete": false,
-        "imgUrl": "level_0_category_15.jpg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Arriba"],
-              "imgUrl": "level_1_category_15_activity_0.png"
-            },
-            {
-              "id": 1,
-              "answers": ["Abajo"],
-              "imgUrl": "level_1_category_15_activity_1.png"
-            }
-          ]
-      },
-      { 
-        "id": 16,
-        "title": "Noción temporal",
-        "complete": false,
-        "imgUrl": "level_0_category_16.jpg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Ayer"],
-              "imgUrl": "level_1_category_16_activity_0.png"
-            },
-            {
-              "id": 1,
-              "answers": ["Hoy"],
-              "imgUrl": "level_1_category_16_activity_1.png"
-            },
-            {
-              "id": 2,
-              "answers": ["Mañana"],
-              "imgUrl": "level_1_category_16_activity_2.png"
-            }
-          ]
-      },
-      { 
-        "id": 17,
-        "title": "Números",
-        "complete": false,
-        "imgUrl": "level_0_category_17.jpeg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Uno"],
-              "imgUrl": "level_1_category_17_activity_0.png"
-            },
-            {
-              "id": 1,
-              "answers": ["Dos"],
-              "imgUrl": "level_1_category_17_activity_1.png"
-            },
-            {
-              "id": 2,
-              "answers": ["Tres"],
-              "imgUrl": "level_1_category_17_activity_2.png"
-            }
-          ]
-      },
-      { 
-        "id": 18,
-        "title": "Objetos del hogar",
-        "complete": false,
-        "imgUrl": "level_0_category_18.jpg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Mesa"],
-              "imgUrl": "level_1_category_18_activity_0.png"
-            },
-            {
-              "id": 1,
-              "answers": ["Silla"],
-              "imgUrl": "level_1_category_18_activity_1.png"
-            }
-          ]
-      },
-      { 
-        "id": 19,
-        "title": "Oficios y profesiones",
-        "complete": false,
-        "imgUrl": "level_0_category_19.jpg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Doctor"],
-              "imgUrl": "level_1_category_19_activity_0.png"
-            },
-            {
-              "id": 1,
-              "answers": ["Maestra","Profesora"],
-              "imgUrl": "level_1_category_19_activity_1.png"
-            }
-          ]
-      },
-      { 
-        "id": 20,
-        "title": "Partes del cuerpo",
-        "complete": false,
-        "imgUrl": "level_0_category_20.jpg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Boca"],
-              "imgUrl": "level_1_category_20_activity_0.png"
-            },
-            {
-              "id": 1,
-              "answers": ["Mano"],
-              "imgUrl": "level_1_category_20_activity_1.png"
-            },
-            {
-              "id": 2,
-              "answers": ["Nariz"],
-              "imgUrl": "level_1_category_20_activity_2.png"
-            },
-            {
-              "id": 3,
-              "answers": ["Ojos"],
-              "imgUrl": "level_1_category_20_activity_3.png"
-            }
-          ]
-      },
-      { 
-        "id": 21,
-        "title": "Personajes historicos",
-        "complete": false,
-        "imgUrl": "level_0_category_21.jpg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Simon Bolivar", "Simon","Bolivar"],
-              "imgUrl": "level_1_category_21_activity_0.jpeg"
-            }
-          ]
-      },
-      { 
-        "id": 22,
-        "title": "Personas",
-        "complete": false,
-        "imgUrl": "level_0_category_22.jpg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Mamá"],
-              "imgUrl": "level_1_category_22_activity_0.png"
-            },
-            {
-              "id": 1,
-              "answers": ["Papá"],
-              "imgUrl": "level_1_category_22_activity_1.png"
-            },
-            {
-              "id": 2,
-              "answers": ["Bebé"],
-              "imgUrl": "level_1_category_22_activity_2.png"
-            },
-            {
-              "id": 3,
-              "answers": ["Niño"],
-              "imgUrl": "level_1_category_22_activity_3.png"
-            },
-            {
-              "id": 4,
-              "answers": ["Niña"],
-              "imgUrl": "level_1_category_22_activity_4.png"
-            }
-        ]
-      },
-      { 
-        "id": 23,
-        "title": "Ropa",
-        "complete": false,
-        "imgUrl": "level_0_category_23.jpeg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Camisa"],
-              "imgUrl": "level_1_category_23_activity_0.png"
-            },
-            {
-              "id": 1,
-              "answers": ["Medias"],
-              "imgUrl": "level_1_category_23_activity_1.png"
-            },
-            {
-              "id": 2,
-              "answers": ["Pantalon"],
-              "imgUrl": "level_1_category_23_activity_2.png"
-            },
-            {
-              "id": 3,
-              "answers": ["Zapatos"],
-              "imgUrl": "level_1_category_23_activity_3.png"
-            }
-        ]
-      },
-      { 
-        "id": 24,
-        "title": "Simbolos",
-        "complete": false,
-        "imgUrl": "level_0_category_24.jpeg",
-        "activities": [
-            {
-              "id": 0,
-              "answers": ["Bandera"],
-              "imgUrl": "level_1_category_24_activity_0.png"
-            }
-        ]
-      }
-    ]
-  }
+	"id":2,
+	"title":"Segundo Grado",
+	"categories":
+	[
+		{
+			"id":0,
+			"title":"alimentos",
+			"complete":false,
+			"imgUrl":"level_2_category_0.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["cafe"],
+					"imgUrl":"level_2_category_0_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["gelatina"],
+					"imgUrl":"level_2_category_0_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["ponque"],
+					"imgUrl":"level_2_category_0_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["sopa"],
+					"imgUrl":"level_2_category_0_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["te"],
+					"imgUrl":"level_2_category_0_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":1,
+			"title":"animales",
+			"complete":false,
+			"imgUrl":"level_2_category_1.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["abeja"],
+					"imgUrl":"level_2_category_1_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["burro"],
+					"imgUrl":"level_2_category_1_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["cochino"],
+					"imgUrl":"level_2_category_1_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["oveja"],
+					"imgUrl":"level_2_category_1_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["paloma"],
+					"imgUrl":"level_2_category_1_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":2,
+			"title":"arboles",
+			"complete":false,
+			"imgUrl":"level_2_category_2.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["bucare ceibo"],
+					"imgUrl":"level_2_category_2_activity_0.jpg"
+				}
+			]
+		},
+		{
+			"id":3,
+			"title":"colores",
+			"complete":false,
+			"imgUrl":"level_2_category_3.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["amarillo"],
+					"imgUrl":"level_2_category_3_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["azul"],
+					"imgUrl":"level_2_category_3_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["morado"],
+					"imgUrl":"level_2_category_3_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["negro"],
+					"imgUrl":"level_2_category_3_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["verde"],
+					"imgUrl":"level_2_category_3_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":4,
+			"title":"dias de la semana",
+			"complete":false,
+			"imgUrl":"level_2_category_4.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["domingo"],
+					"imgUrl":"level_2_category_4_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["lunes"],
+					"imgUrl":"level_2_category_4_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["martes"],
+					"imgUrl":"level_2_category_4_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["miercoles"],
+					"imgUrl":"level_2_category_4_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["viernes"],
+					"imgUrl":"level_2_category_4_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":5,
+			"title":"enfermedades",
+			"complete":false,
+			"imgUrl":"level_2_category_5.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["ah1n1"],
+					"imgUrl":"level_2_category_5_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["chikungunya"],
+					"imgUrl":"level_2_category_5_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["otitis"],
+					"imgUrl":"level_2_category_5_activity_2.jpg"
+				}
+			]
+		},
+		{
+			"id":6,
+			"title":"figuras",
+			"complete":false,
+			"imgUrl":"level_2_category_6.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["circulo"],
+					"imgUrl":"level_2_category_6_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["cuadrado"],
+					"imgUrl":"level_2_category_6_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["esfera"],
+					"imgUrl":"level_2_category_6_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["rectangulo"],
+					"imgUrl":"level_2_category_6_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["triangulo"],
+					"imgUrl":"level_2_category_6_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":7,
+			"title":"frutas",
+			"complete":false,
+			"imgUrl":"level_2_category_7.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["cambur"],
+					"imgUrl":"level_2_category_7_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["coco"],
+					"imgUrl":"level_2_category_7_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["limon"],
+					"imgUrl":"level_2_category_7_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["melon"],
+					"imgUrl":"level_2_category_7_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["uva"],
+					"imgUrl":"level_2_category_7_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":8,
+			"title":"juegos",
+			"complete":false,
+			"imgUrl":"level_2_category_8.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["bate"],
+					"imgUrl":"level_2_category_8_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["futbol"],
+					"imgUrl":"level_2_category_8_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["natacion"],
+					"imgUrl":"level_2_category_8_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["perinola"],
+					"imgUrl":"level_2_category_8_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["yoyo"],
+					"imgUrl":"level_2_category_8_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":9,
+			"title":"lugares",
+			"complete":false,
+			"imgUrl":"level_2_category_9.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["comedor"],
+					"imgUrl":"level_2_category_9_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["heladeria"],
+					"imgUrl":"level_2_category_9_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["mercado"],
+					"imgUrl":"level_2_category_9_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["patio"],
+					"imgUrl":"level_2_category_9_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["salon"],
+					"imgUrl":"level_2_category_9_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":10,
+			"title":"lugares de merida",
+			"complete":false,
+			"imgUrl":"level_2_category_10.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["acuario"],
+					"imgUrl":"level_2_category_10_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["catedral"],
+					"imgUrl":"level_2_category_10_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["plaza bolivar"],
+					"imgUrl":"level_2_category_10_activity_2.jpg"
+				}
+			]
+		},
+		{
+			"id":11,
+			"title":"medios de transporte",
+			"complete":false,
+			"imgUrl":"level_2_category_11.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["avion"],
+					"imgUrl":"level_2_category_11_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["buseta"],
+					"imgUrl":"level_2_category_11_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["camion"],
+					"imgUrl":"level_2_category_11_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["trolcable"],
+					"imgUrl":"level_2_category_11_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["trolebus"],
+					"imgUrl":"level_2_category_11_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":12,
+			"title":"meses del año",
+			"complete":false,
+			"imgUrl":"level_2_category_12.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["agosto"],
+					"imgUrl":"level_2_category_12_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["diciembre"],
+					"imgUrl":"level_2_category_12_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["enero"],
+					"imgUrl":"level_2_category_12_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["febrero"],
+					"imgUrl":"level_2_category_12_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["octubre"],
+					"imgUrl":"level_2_category_13_activity_0.jpg"
+				}
+			]
+		},
+		{
+			"id":13,
+			"title":"nocion de cantidad",
+			"complete":false,
+			"imgUrl":"level_2_category_13.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["cantidad"],
+					"imgUrl":"level_2_category_13_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["cifra"],
+					"imgUrl":"level_2_category_13_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["igual que"],
+					"imgUrl":"level_2_category_13_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["mayor que"],
+					"imgUrl":"level_2_category_13_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["menos que"],
+					"imgUrl":"level_2_category_13_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":14,
+			"title":"nocion de tamaño",
+			"complete":false,
+			"imgUrl":"level_2_category_14.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["alto"],
+					"imgUrl":"level_2_category_14_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["corto"],
+					"imgUrl":"level_2_category_14_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["grande"],
+					"imgUrl":"level_2_category_14_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["largo"],
+					"imgUrl":"level_2_category_14_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["pequeño"],
+					"imgUrl":"level_2_category_14_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":15,
+			"title":"nocion espacial",
+			"complete":false,
+			"imgUrl":"level_2_category_15.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["Fuera"],
+					"imgUrl":"level_2_category_15_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["alla"],
+					"imgUrl":"level_2_category_15_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["anterior"],
+					"imgUrl":"level_2_category_15_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["aqui"],
+					"imgUrl":"level_2_category_15_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["dentro"],
+					"imgUrl":"level_2_category_15_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":16,
+			"title":"nocion temporal",
+			"complete":false,
+			"imgUrl":"level_2_category_16.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["ayer"],
+					"imgUrl":"level_2_category_16_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["despues"],
+					"imgUrl":"level_2_category_16_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["hoy"],
+					"imgUrl":"level_2_category_16_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["mañana"],
+					"imgUrl":"level_2_category_16_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["pasado mañana"],
+					"imgUrl":"level_2_category_16_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":17,
+			"title":"numeros",
+			"complete":false,
+			"imgUrl":"level_2_category_17.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["cinco"],
+					"imgUrl":"level_2_category_17_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["nueve"],
+					"imgUrl":"level_2_category_17_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["ocho"],
+					"imgUrl":"level_2_category_17_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["tres"],
+					"imgUrl":"level_2_category_17_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["uno"],
+					"imgUrl":"level_2_category_17_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":18,
+			"title":"objetos del hogar",
+			"complete":false,
+			"imgUrl":"level_2_category_18.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["celular"],
+					"imgUrl":"level_2_category_18_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["lampara"],
+					"imgUrl":"level_2_category_18_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["radio"],
+					"imgUrl":"level_2_category_18_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["silla"],
+					"imgUrl":"level_2_category_18_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["televisor"],
+					"imgUrl":"level_2_category_18_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":19,
+			"title":"oficios y profesiones",
+			"complete":false,
+			"imgUrl":"level_2_category_19.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["albañil"],
+					"imgUrl":"level_2_category_19_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["carnicero"],
+					"imgUrl":"level_2_category_19_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["enfermera"],
+					"imgUrl":"level_2_category_19_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["mecanico"],
+					"imgUrl":"level_2_category_19_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["odontologo"],
+					"imgUrl":"level_2_category_19_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":20,
+			"title":"partes del cuerpo",
+			"complete":false,
+			"imgUrl":"level_2_category_20.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["cabello"],
+					"imgUrl":"level_2_category_20_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["dedos"],
+					"imgUrl":"level_2_category_20_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["lengua"],
+					"imgUrl":"level_2_category_20_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["oreja"],
+					"imgUrl":"level_2_category_20_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["pene"],
+					"imgUrl":"level_2_category_20_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":21,
+			"title":"personajes historicos",
+			"complete":false,
+			"imgUrl":"level_2_category_21.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["andres bello"],
+					"imgUrl":"level_2_category_21_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["antonio jose de sucre"],
+					"imgUrl":"level_2_category_21_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["josefa camejo"],
+					"imgUrl":"level_2_category_21_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["negro primero"],
+					"imgUrl":"level_2_category_21_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["simon bolivar"],
+					"imgUrl":"level_2_category_21_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":22,
+			"title":"personas",
+			"complete":false,
+			"imgUrl":"level_2_category_22.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["abuela"],
+					"imgUrl":"level_2_category_22_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["hija"],
+					"imgUrl":"level_2_category_22_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["hijo"],
+					"imgUrl":"level_2_category_22_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["tia"],
+					"imgUrl":"level_2_category_22_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["tio"],
+					"imgUrl":"level_2_category_22_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":23,
+			"title":"ropa",
+			"complete":false,
+			"imgUrl":"level_2_category_23.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["bota"],
+					"imgUrl":"level_2_category_23_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["falda"],
+					"imgUrl":"level_2_category_23_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["franela"],
+					"imgUrl":"level_2_category_23_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["gorra"],
+					"imgUrl":"level_2_category_23_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["vestidos"],
+					"imgUrl":"level_2_category_23_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":24,
+			"title":"simbolos",
+			"complete":false,
+			"imgUrl":"level_2_category_24.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["araguaney"],
+					"imgUrl":"level_2_category_24_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["bandera"],
+					"imgUrl":"level_2_category_24_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["orquidea"],
+					"imgUrl":"level_2_category_24_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["turpial"],
+					"imgUrl":"level_2_category_24_activity_3.jpg"
+				}
+			]
+		},
+		{
+			"id":25,
+			"title":"sintomas",
+			"complete":false,
+			"imgUrl":"level_2_category_25.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["dolor de cabeza"],
+					"imgUrl":"level_2_category_25_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["fiebre"],
+					"imgUrl":"level_2_category_25_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["mareo"],
+					"imgUrl":"level_2_category_25_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["picazon"],
+					"imgUrl":"level_2_category_25_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["tos"],
+					"imgUrl":"level_2_category_25_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":26,
+			"title":"utensilios de la cocina",
+			"complete":false,
+			"imgUrl":"level_2_category_26.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["cuchillo"],
+					"imgUrl":"level_2_category_26_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["jarra"],
+					"image":"level_2_category_26_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["sarten"],
+					"imgUrl":"level_2_category_26_activity_2.jpg"
+				}
+			]
+		},
+		{
+			"id":27,
+			"title":"utiles escolares",
+			"complete":false,
+			"imgUrl":"level_2_category_27.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["canaima"],
+					"imgUrl":"level_2_category_27_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["libro"],
+					"imgUrl":"level_2_category_27_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["morral"],
+					"imgUrl":"level_2_category_27_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["pega"],
+					"imgUrl":"level_2_category_27_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["regla"],
+					"imgUrl":"level_2_category_27_activity_4.jpg"
+				}
+			]
+		},
+		{
+			"id":28,
+			"title":"verduras y hortalizas",
+			"complete":false,
+			"imgUrl":"level_2_category_28.jpg",
+			"activities":
+			[
+				{
+					"id":0,
+					"asnwers":["cebolla"],
+					"imgUrl":"level_2_category_28_activity_0.jpg"
+				},
+				{
+					"id":1,
+					"asnwers":["jojoto"],
+					"imgUrl":"level_2_category_28_activity_1.jpg"
+				},
+				{
+					"id":2,
+					"asnwers":["remolacha"],
+					"imgUrl":"level_2_category_28_activity_2.jpg"
+				},
+				{
+					"id":3,
+					"asnwers":["vainita"],
+					"imgUrl":"level_2_category_28_activity_3.jpg"
+				},
+				{
+					"id":4,
+					"asnwers":["zanahoria"],
+					"imgUrl":"level_2_category_28_activity_4.jpg"
+				}
+			]
+		}
+	]
+}
