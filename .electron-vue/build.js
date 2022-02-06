@@ -2,6 +2,7 @@
 
 process.env.NODE_ENV = 'production'
 
+const Multispinner = require('multispinner')
 const { say } = require('cfonts')
 const chalk = require('chalk')
 const del = require('del')
@@ -23,13 +24,13 @@ if (process.env.BUILD_TARGET === 'clean') clean()
 else if (process.env.BUILD_TARGET === 'web') web()
 else build()
 
-function clean () {
+function clean() {
   del.sync(['build/*', '!build/icons', '!build/icons/icon.*'])
   console.log(`\n${doneLog}\n`)
   process.exit()
 }
 
-async function build () {
+async function build() {
   greeting()
 
   del.sync(['dist/electron/*', '!.gitkeep'])
@@ -42,7 +43,7 @@ async function build () {
 
   let results = ''
 
-  const tasks = new Listr(
+  const _tasks = new Listr(
     [
       {
         title: 'building master process',
@@ -74,7 +75,7 @@ async function build () {
     { concurrent: 2 }
   )
 
-  await tasks
+  await _tasks
     .run()
     .then(() => {
       process.stdout.write('\x1B[2J\x1B[0f')
@@ -87,7 +88,7 @@ async function build () {
     })
 }
 
-function pack (config) {
+function pack(config) {
   return new Promise((resolve, reject) => {
     config.mode = 'production'
     webpack(config, (err, stats) => {
@@ -99,10 +100,10 @@ function pack (config) {
           chunks: false,
           colors: true
         })
-        .split(/\r?\n/)
-        .forEach(line => {
-          err += `    ${line}\n`
-        })
+          .split(/\r?\n/)
+          .forEach(line => {
+            err += `    ${line}\n`
+          })
 
         reject(err)
       } else {
@@ -115,7 +116,7 @@ function pack (config) {
   })
 }
 
-function web () {
+function web() {
   del.sync(['dist/web/*', '!.gitkeep'])
   webConfig.mode = 'production'
   webpack(webConfig, (err, stats) => {
@@ -130,7 +131,7 @@ function web () {
   })
 }
 
-function greeting () {
+function greeting() {
   const cols = process.stdout.columns
   let text = ''
 
