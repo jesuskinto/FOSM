@@ -10,12 +10,12 @@
       "activities": [
         {
           "id": 0,
-          "answers": ["Casabe."],
+          "answers": ["Casabe"],
           "imgUrl": "level_4_category_0_activity_0.jpg"
         },
         {
           "id": 1,
-          "answers": ["Granos"],
+          "answers": ["Granos", "grano"],
           "imgUrl": "level_4_category_0_activity_1.jpg"
         },
         {
@@ -35,7 +35,7 @@
         },
         {
           "id": 5,
-          "answers": ["Pabellón"],
+          "answers": ["Pabellón", "pabellon"],
           "imgUrl": "level_4_category_0_activity_5.jpg"
         },
         {
@@ -74,12 +74,12 @@
             },
             {
               "id": 3,
-              "answers": ["Delfin"],
+              "answers": ["Delfin", "Delfín"],
               "imgUrl": "level_4_category_1_activity_3.jpg"
             },
             {
               "id": 4,
-              "answers": ["Hipopotamo"],
+              "answers": ["Hipopotamo", "Hipopótamo"],
               "imgUrl": "level_4_category_1_activity_4.jpg"
             },
             {
@@ -99,7 +99,7 @@
             } ,
             {
               "id": 9,
-              "answers": ["Tiburón"],
+              "answers": ["Tiburón", "Tiburon"],
               "imgUrl": "level_4_category_1_activity_9.jpg"
             } ,
             {
@@ -114,7 +114,7 @@
             } ,
             {
               "id": 12,
-              "answers": ["Tucán"],
+              "answers": ["Tucán", "tucan"],
               "imgUrl": "level_4_category_1_activity_12.jpg"
             }                             
       ]
@@ -148,7 +148,7 @@
           },
           {
             "id": 4,
-            "answers": ["Marfil"],
+            "answers": ["Marfil", "marfíl"],
             "imgUrl": "level_4_category_2_activity_4.jpg"
           },
           {
@@ -158,7 +158,7 @@
           },
           {
             "id": 6,
-            "answers": ["Purpura"],
+            "answers": ["Purpura", "púrpura"],
             "imgUrl": "level_4_category_2_activity_6.png"
           },
           {
@@ -182,7 +182,7 @@
           {
             "id": 0,
             "answers": ["Arroz con leche"],
-            "imgUrl": "level_4_category_3_activity_0.jpg"
+            "imgUrl": "level_4_category_3_activity_0.jpeg"
           },
           {
             "id": 1,
@@ -196,7 +196,7 @@
             },
             {
               "id": 3,
-              "answers": ["Chupetas"],
+              "answers": ["Chupetas", "Chupeta"],
               "imgUrl": "level_4_category_3_activity_3.jpg"
             },
             {
@@ -239,7 +239,7 @@
             },
             {
               "id": 3,
-              "answers": ["Sarampión"],
+              "answers": ["Sarampión", "sarampion"],
               "imgUrl": "level_4_category_4_activity_3.jpg"
             }             
 
@@ -253,7 +253,7 @@
       "activities": [
           {
             "id": 0,
-            "answers": ["Circulo"],
+            "answers": ["Circulo", "Círculo"],
             "imgUrl": "level_4_category_5_activity_0.png"
           },
           {
@@ -263,12 +263,12 @@
             },
             {
               "id": 2,
-              "answers": ["Rectangulo"],
+              "answers": ["Rectangulo", "rectángulo"],
               "imgUrl": "level_4_category_5_activity_2.png"
             },
             {
               "id": 3,
-              "answers": ["Triangulo"],
+              "answers": ["Triangulo", "triángulo"],
               "imgUrl": "level_4_category_5_activity_3.png"
             }                                        
 
@@ -292,7 +292,7 @@
           },
           {
               "id": 2,
-              "answers": ["Guanabana"],
+              "answers": ["Guanabana", "Guanábana"],
               "imgUrl": "level_4_category_6_activity_2.jpg"
             }, 
             {
@@ -330,12 +330,12 @@
             },
             {
               "id": 3,
-              "answers": ["Futbol"],
+              "answers": ["Futbol", "fútbol"],
               "imgUrl": "level_4_category_7_activity_3.png"
             },
             {
               "id": 4,
-              "answers": ["Natación"],
+              "answers": ["Natación", "Natacion"],
               "imgUrl": "level_4_category_7_activity_4.jpg"
             },
             {
@@ -401,7 +401,7 @@
       "activities": [
           {
             "id": 0,
-            "answers": ["La Culata"],
+            "answers": ["La Culata", "paramo La Culata", "páramo la culata"],
             "imgUrl": "level_4_category_9_activity_0.jpg"
           },
           {
@@ -421,20 +421,20 @@
             }        ,
             {
               "id": 4,
-              "answers": ["Venezuela de antier"],
+              "answers": ["Venezuela de antier","la Venezuela de antier"],
               "imgUrl": "level_4_category_9_activity_4.jpg"
             }                      
         ]
     },
     { 
       "id": 10,
-      "title": "Arboles",
+      "title": "Árboles",
       "complete": false,
       "imgUrl": "level_4_category_10_activity_1.jpg",
       "activities": [
           {
             "id": 0,
-            "answers": ["Bambú"],
+            "answers": ["Bambú", "Bambu"],
             "imgUrl": "level_4_category_10_activity_0.jpg"
           },
           {
@@ -495,7 +495,7 @@
         },
         {
           "id": 1,
-          "answers": ["Estomago"],
+          "answers": ["Estomago", "Estómago"],
           "imgUrl": "level_4_category_12_activity_1.png"
         },
         {
@@ -505,7 +505,7 @@
         },
         {
           "id": 3,
-          "answers": ["Labios"],
+          "answers": ["Labios", "Labio"],
           "imgUrl": "level_4_category_12_activity_3.jpg"
         },
         {
@@ -520,22 +520,22 @@
         },
         {
           "id": 6,
-          "answers": ["Parpados"],
+          "answers": ["Parpados", "Parpado", "párpados","párpado"],
           "imgUrl": "level_4_category_12_activity_6.jpg"
         },
         {
           "id": 7,
-          "answers": ["Pulmon"],
+          "answers": ["Pulmon", "Pulmón"],
           "imgUrl": "level_4_category_12_activity_7.jpg"
         },
         {
           "id": 8,
-          "answers": ["Riñón"],
+          "answers": ["Riñón", "Riñon"],
           "imgUrl": "level_4_category_12_activity_8.jpg"
         },
         {
           "id": 9,
-          "answers": ["Testiculos"],
+          "answers": ["Testiculos", "Testículos"],
           "imgUrl": "level_4_category_12_activity_9.jpg"
         },
         {
@@ -545,13 +545,13 @@
         },
         {
           "id": 11,
-          "answers": ["Tronco humano"],
+          "answers": ["Tronco humano", "Tronco"],
           "imgUrl": "level_4_category_12_activity_11.png"
         },
         {
           "id": 12,
           "answers": ["Vagina"],
-          "imgUrl": "level_4_category_12_activity_11.png"
+          "imgUrl": "level_4_category_12_activity_11.jpg"
         }                                                                                                               
 
 
@@ -566,12 +566,12 @@
       "activities": [
         {
           "id": 0,
-          "answers": ["Ana Maria Campos"],
+          "answers": ["Ana Maria Campos", "Ana María Campos"],
           "imgUrl": "level_4_category_13_activity_0.jpg"
         },
         {
           "id": 1,
-          "answers": ["Antonio José de Sucre"],
+          "answers": ["Antonio José de Sucre", "Antonio Jose de Sucre"],
           "imgUrl": "level_4_category_13_activity_1.jpg"
         },
         {
@@ -581,12 +581,12 @@
         },
         {
           "id": 3,
-          "answers": ["Luisa Caceres de Arismendi"],
+          "answers": ["Luisa Caceres de Arismendi", "Luisa Cáceres de Arismendi"],
           "imgUrl": "level_4_category_13_activity_3.jpg"
         },
         {
           "id": 4,
-          "answers": ["Manuelita Sáenz"],
+          "answers": ["Manuelita Sáenz","Manuelita Saenz"],
           "imgUrl": "level_4_category_13_activity_4.jpg"
         },
         {
@@ -680,12 +680,12 @@
         },
         {
           "id":2,
-          "answers": ["Colicos"],
+          "answers": ["Colicos", "Cólicos"],
           "imgUrl": "level_4_category_16_activity_2.jpg"
         },
         {
           "id":3,
-          "answers": ["Erupcion"],
+          "answers": ["Erupcion", "Erupción"],
           "imgUrl": "level_4_category_16_activity_3.jpg"
         }                                                                            
       ]
@@ -709,7 +709,7 @@
         }, 
         {
           "id":2,
-          "answers": ["Metro Bus"],
+          "answers": ["Metro Bus", "MetroBús", "Metrobus"],
           "imgUrl": "level_4_category_17_activity_2.jpg"
         }   , 
         {
@@ -719,7 +719,7 @@
         } , 
         {
           "id":4,
-          "answers": ["Teleferico"],
+          "answers": ["Teleferico", "Teleférico"],
           "imgUrl": "level_4_category_17_activity_4.jpg"
         }                  
 
@@ -753,17 +753,17 @@
         }, 
         {
           "id":4,
-          "answers": ["Escuadras"],
+          "answers": ["Escuadras", "Escuadra"],
           "imgUrl": "level_4_category_18_activity_4.jpg"
         }, 
         {
           "id":5,
-          "answers": ["Hoja de examen"],
+          "answers": ["Hoja de examen", "Hoja de exámen"],
           "imgUrl": "level_4_category_18_activity_5.jpg"
         }, 
         {
           "id":6,
-          "answers": ["Revistas"],
+          "answers": ["Revistas", "Revista"],
           "imgUrl": "level_4_category_18_activity_6.jpg"
         }, 
         {
@@ -792,13 +792,13 @@
         }, 
         {
           "id":2,
-          "answers": ["Brocoli"],
+          "answers": ["Brocoli", "Brócoli"],
           "imgUrl": "level_4_category_19_activity_2.jpg"
         }, 
 
         {
           "id":3,
-          "answers": ["Calabacin"],
+          "answers": ["Calabacin", "Calabacín"],
           "imgUrl": "level_4_category_19_activity_3.jpg"
         },
         {
@@ -813,7 +813,7 @@
         }      , 
         {
           "id":6,
-          "answers": ["Maiz"],
+          "answers": ["Maiz", "Maíz"],
           "imgUrl": "level_4_category_19_activity_6.jpg"
         } , 
         {
