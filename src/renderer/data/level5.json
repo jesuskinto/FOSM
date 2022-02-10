@@ -234,7 +234,7 @@
       "activities": [
           {
             "id": 0,
-            "answers": ["champu"],
+            "answers": ["shampu","champu"],
             "imgUrl": "level_5_category_3_activity_0.jpg"
           },
           {
@@ -249,7 +249,7 @@
           },
           {
             "id": 3,
-            "answers": ["enjuague"],
+            "answers": ["enjuague dental"],
             "imgUrl": "level_5_category_3_activity_3.jpg"
           },
           {
@@ -429,7 +429,7 @@
             {
               "id": 7,
               "answers": ["sida"],
-              "imgUrl": "level_5_category_6_activity_7.jpg"
+              "imgUrl": "level_5_category_6_activity_7.png"
             },
             {
               "id": 8,
@@ -723,7 +723,7 @@
           },
           {
             "id": 3,
-            "answers": ["metrop"],
+            "answers": ["metro"],
             "imgUrl": "level_5_category_11_activity_3.jpg"
           },
           {
@@ -744,7 +744,7 @@
           {
             "id": 7,
             "answers": ["teleferico"],
-            "imgUrl": "level_5_category_11_activity_7.jpg"
+            "imgUrl": "level_5_category_11_activity_7.jpeg"
           },
           {
             "id": 8,
@@ -825,12 +825,12 @@
           {
             "id": 0,
             "answers": ["abogado"],
-            "imgUrl": "level_1_category_13_activity_0.jpg"
+            "imgUrl": "level_5_category_13_activity_0.jpg"
           },
           {
             "id": 1,
             "answers": ["administrador"],
-            "imgUrl": "level_1_category_13_activity_1.jpg"
+            "imgUrl": "level_5_category_13_activity_1.jpg"
           },
           {
             "id": 2,
@@ -854,7 +854,7 @@
           },
           {
             "id": 6,
-            "answers": ["construtor"],
+            "answers": ["constructor"],
             "imgUrl": "level_5_category_13_activity_6.jpg"
           },
           {
@@ -897,7 +897,7 @@
       "activities": [
           {
             "id": 0,
-            "answe0s": ["axila"],
+            "answers": ["axila"],
             "imgUrl": "level_5_category_14_activity_0.jpg"
           },
           {
@@ -907,7 +907,7 @@
           },
           {
             "id": 2,
-            "answers": ["extremidadas"],
+            "answers": ["extremidades"],
             "imgUrl": "level_5_category_14_activity_2.png"
           },
           {
@@ -932,7 +932,7 @@
           },
             {
             "id": 7,
-            "answers": ["pulmon"],
+            "answers": ["pulmon","pulmones"],
             "imgUrl": "level_5_category_14_activity_7.jpg"
           },
           {
@@ -1066,7 +1066,7 @@
           {
             "id": 11,
             "answers": ["proceres"],
-            "imgUrl": "level_5_category_15_activity_11.jpg"
+            "imgUrl": "level_5_category_15_activity_11.png"
           },
           {
             "id": 12,
@@ -1107,11 +1107,11 @@
       "id": 17,
       "title": "Ropa",
       "complete": false,
-      "imgUrl": "level_5_category_18.jpg",
+      "imgUrl": "level_5_category_17.jpg",
       "activities": [
           {
             "id": 0,
-            "answers": ["alparpatas"],
+            "answers": ["alpargatas"],
             "imgUrl": "level_5_category_17_activity_0.jpg"
           },
           {
@@ -1185,42 +1185,42 @@
           {
             "id": 2,
             "answers": ["frailejon"],
-            "imgUrl": "level_5_category_18_activity_0.jpg"
+            "imgUrl": "level_5_category_18_activity_2.jpg"
           },
           {
             "id": 3,
             "answers": ["girasol"],
-            "imgUrl": "level_5_category_18_activity_1.jpg"
+            "imgUrl": "level_5_category_18_activity_3.jpg"
           },
           {
             "id": 4,
             "answers": ["lirio"],
-            "imgUrl": "level_5_category_18_activity_0.jpg"
+            "imgUrl": "level_5_category_18_activity_4.jpg"
           },
           {
             "id": 5,
             "answers": ["margarita"],
-            "imgUrl": "level_5_category_18_activity_1.jpg"
+            "imgUrl": "level_5_category_18_activity_5.jpg"
           },
           {
             "id": 6,
             "answers": ["orquidea"],
-            "imgUrl": "level_5_category_18_activity_0.jpg"
+            "imgUrl": "level_5_category_18_activity_6.jpg"
           },
           {
             "id": 7,
             "answers": ["rosa"],
-            "imgUrl": "level_5_category_18_activity_1.jpg"
+            "imgUrl": "level_5_category_18_activity_7.jpg"
           },
           {
             "id": 8,
             "answers": ["trinitaria"],
-            "imgUrl": "level_5_category_18_activity_0.jpg"
+            "imgUrl": "level_5_category_18_activity_8.jpg"
           },
           {
             "id": 9,
             "answers": ["tulipan"],
-            "imgUrl": "level_5_category_18_activity_1.jpg"
+            "imgUrl": "level_5_category_18_activity_9.jpg"
           }
         ]
     },
@@ -1300,7 +1300,7 @@
           },
           {
             "id": 7,
-            "answers": ["hojas de examen"],
+            "answers": ["hojas de examen","hoja de examen"],
             "imgUrl": "level_5_category_20_activity_7.jpg"
           },
           {
@@ -1310,7 +1310,7 @@
           },
           {
             "id": 9,
-            "answers": ["lija"],
+            "answers": ["lija","lijas"],
             "imgUrl": "level_5_category_20_activity_9.jpg"
           },
           {
@@ -1326,7 +1326,7 @@
           {
             "id": 12,
             "answers": ["silicon"],
-            "imgUrl": "level_5_category_20_activity_12.jpg"
+            "imgUrl": "level_5_category_20_activity_12.png"
           }
         ]
     },
@@ -1354,12 +1354,12 @@
           {
             "id": 3,
             "answers": ["berenjena"],
-            "imgUrl": "level_1_category_21_activity_3.jpg"
+            "imgUrl": "level_5_category_21_activity_3.jpg"
           },
           {
             "id": 4,
             "answers": ["berros"],
-            "imgUrl": "level_1_category_21_activity_4.jpg"
+            "imgUrl": "level_5_category_21_activity_4.jpg"
           },
           {
             "id": 5,
@@ -1379,12 +1379,12 @@
           {
             "id": 8,
             "answers": ["coliflor"],
-            "imgUrl": "level_1_category_21_activity_8.jpg"
+            "imgUrl": "level_5_category_21_activity_8.jpg"
           },
           {
             "id": 9,
             "answers": ["espinaca"],
-            "imgUrl": "level_1_category_21_activity_9.jpg"
+            "imgUrl": "level_5_category_21_activity_9.jpg"
           },
           {
             "id": 10,
@@ -1404,12 +1404,12 @@
           {
             "id": 13,
             "answers": ["perejil"],
-            "imgUrl": "level_1_category_21_activity_13.jpg"
+            "imgUrl": "level_5_category_21_activity_13.jpg"
           },
           {
             "id": 14,
             "answers": ["radicchio"],
-            "imgUrl": "level_1_category_21_activity_14.jpg"
+            "imgUrl": "level_5_category_21_activity_14.jpg"
           },
           {
             "id": 15,
@@ -1429,7 +1429,7 @@
           {
             "id": 18,
             "answers": ["yuca"],
-            "imgUrl": "level_1_category_21_activity_18.jpg"
+            "imgUrl": "level_5_category_21_activity_18.jpg"
           }
       ]
    }
