@@ -12,27 +12,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["cafe"],
+					"answers":["cafe"],
 					"imgUrl":"level_2_category_0_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["gelatina"],
+					"answers":["gelatina"],
 					"imgUrl":"level_2_category_0_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["ponque"],
+					"answers":["ponque"],
 					"imgUrl":"level_2_category_0_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["sopa"],
+					"answers":["sopa"],
 					"imgUrl":"level_2_category_0_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["te"],
+					"answers":["te"],
 					"imgUrl":"level_2_category_0_activity_4.jpg"
 				}
 			]
@@ -46,27 +46,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["abeja"],
+					"answers":["abeja"],
 					"imgUrl":"level_2_category_1_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["burro"],
+					"answers":["burro"],
 					"imgUrl":"level_2_category_1_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["cochino"],
+					"answers":["cochino"],
 					"imgUrl":"level_2_category_1_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["oveja"],
+					"answers":["oveja"],
 					"imgUrl":"level_2_category_1_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["paloma"],
+					"answers":["paloma"],
 					"imgUrl":"level_2_category_1_activity_4.jpg"
 				}
 			]
@@ -80,7 +80,7 @@
 			[
 				{
 					"id":0,
-					"asnwers":["bucare ceibo"],
+					"answers":["bucare ceibo"],
 					"imgUrl":"level_2_category_2_activity_0.jpg"
 				}
 			]
@@ -94,27 +94,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["amarillo"],
+					"answers":["amarillo"],
 					"imgUrl":"level_2_category_3_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["azul"],
+					"answers":["azul"],
 					"imgUrl":"level_2_category_3_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["morado"],
+					"answers":["morado"],
 					"imgUrl":"level_2_category_3_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["negro"],
+					"answers":["negro"],
 					"imgUrl":"level_2_category_3_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["verde"],
+					"answers":["verde"],
 					"imgUrl":"level_2_category_3_activity_4.jpg"
 				}
 			]
@@ -128,27 +128,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["domingo"],
+					"answers":["domingo"],
 					"imgUrl":"level_2_category_4_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["lunes"],
+					"answers":["lunes"],
 					"imgUrl":"level_2_category_4_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["martes"],
+					"answers":["martes"],
 					"imgUrl":"level_2_category_4_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["miercoles"],
+					"answers":["miercoles"],
 					"imgUrl":"level_2_category_4_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["viernes"],
+					"answers":["viernes"],
 					"imgUrl":"level_2_category_4_activity_4.jpg"
 				}
 			]
@@ -162,17 +162,17 @@
 			[
 				{
 					"id":0,
-					"asnwers":["ah1n1"],
+					"answers":["ah1n1"],
 					"imgUrl":"level_2_category_5_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["chikungunya"],
+					"answers":["chikungunya"],
 					"imgUrl":"level_2_category_5_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["otitis"],
+					"answers":["otitis"],
 					"imgUrl":"level_2_category_5_activity_2.jpg"
 				}
 			]
@@ -186,27 +186,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["circulo"],
+					"answers":["circulo"],
 					"imgUrl":"level_2_category_6_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["cuadrado"],
+					"answers":["cuadrado"],
 					"imgUrl":"level_2_category_6_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["esfera"],
+					"answers":["esfera"],
 					"imgUrl":"level_2_category_6_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["rectangulo"],
+					"answers":["rectangulo"],
 					"imgUrl":"level_2_category_6_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["triangulo"],
+					"answers":["triangulo"],
 					"imgUrl":"level_2_category_6_activity_4.jpg"
 				}
 			]
@@ -220,27 +220,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["cambur"],
+					"answers":["cambur"],
 					"imgUrl":"level_2_category_7_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["coco"],
+					"answers":["coco"],
 					"imgUrl":"level_2_category_7_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["limon"],
+					"answers":["limon"],
 					"imgUrl":"level_2_category_7_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["melon"],
+					"answers":["melon"],
 					"imgUrl":"level_2_category_7_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["uva"],
+					"answers":["uva"],
 					"imgUrl":"level_2_category_7_activity_4.jpg"
 				}
 			]
@@ -254,27 +254,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["bate"],
+					"answers":["bate"],
 					"imgUrl":"level_2_category_8_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["futbol"],
+					"answers":["futbol"],
 					"imgUrl":"level_2_category_8_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["natacion"],
+					"answers":["natacion"],
 					"imgUrl":"level_2_category_8_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["perinola"],
+					"answers":["perinola"],
 					"imgUrl":"level_2_category_8_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["yoyo"],
+					"answers":["yoyo"],
 					"imgUrl":"level_2_category_8_activity_4.jpg"
 				}
 			]
@@ -288,27 +288,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["comedor"],
+					"answers":["comedor"],
 					"imgUrl":"level_2_category_9_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["heladeria"],
+					"answers":["heladeria"],
 					"imgUrl":"level_2_category_9_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["mercado"],
+					"answers":["mercado"],
 					"imgUrl":"level_2_category_9_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["patio"],
+					"answers":["patio"],
 					"imgUrl":"level_2_category_9_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["salon"],
+					"answers":["salon"],
 					"imgUrl":"level_2_category_9_activity_4.jpg"
 				}
 			]
@@ -322,17 +322,17 @@
 			[
 				{
 					"id":0,
-					"asnwers":["acuario"],
+					"answers":["acuario"],
 					"imgUrl":"level_2_category_10_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["catedral"],
+					"answers":["catedral"],
 					"imgUrl":"level_2_category_10_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["plaza bolivar"],
+					"answers":["plaza bolivar"],
 					"imgUrl":"level_2_category_10_activity_2.jpg"
 				}
 			]
@@ -346,27 +346,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["avion"],
+					"answers":["avion"],
 					"imgUrl":"level_2_category_11_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["buseta"],
+					"answers":["buseta"],
 					"imgUrl":"level_2_category_11_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["camion"],
+					"answers":["camion"],
 					"imgUrl":"level_2_category_11_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["trolcable"],
+					"answers":["trolcable"],
 					"imgUrl":"level_2_category_11_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["trolebus"],
+					"answers":["trolebus"],
 					"imgUrl":"level_2_category_11_activity_4.jpg"
 				}
 			]
@@ -380,28 +380,28 @@
 			[
 				{
 					"id":0,
-					"asnwers":["agosto"],
+					"answers":["agosto"],
 					"imgUrl":"level_2_category_12_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["diciembre"],
+					"answers":["diciembre"],
 					"imgUrl":"level_2_category_12_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["enero"],
+					"answers":["enero"],
 					"imgUrl":"level_2_category_12_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["febrero"],
+					"answers":["febrero"],
 					"imgUrl":"level_2_category_12_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["octubre"],
-					"imgUrl":"level_2_category_13_activity_0.jpg"
+					"answers":["octubre"],
+					"imgUrl":"level_2_category_12_activity_4.jpg"
 				}
 			]
 		},
@@ -414,27 +414,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["cantidad"],
+					"answers":["cantidad"],
 					"imgUrl":"level_2_category_13_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["cifra"],
+					"answers":["cifra"],
 					"imgUrl":"level_2_category_13_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["igual que"],
+					"answers":["igual que"],
 					"imgUrl":"level_2_category_13_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["mayor que"],
+					"answers":["mayor que"],
 					"imgUrl":"level_2_category_13_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["menos que"],
+					"answers":["menos que"],
 					"imgUrl":"level_2_category_13_activity_4.jpg"
 				}
 			]
@@ -448,27 +448,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["alto"],
+					"answers":["alto"],
 					"imgUrl":"level_2_category_14_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["corto"],
+					"answers":["corto"],
 					"imgUrl":"level_2_category_14_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["grande"],
+					"answers":["grande"],
 					"imgUrl":"level_2_category_14_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["largo"],
+					"answers":["largo"],
 					"imgUrl":"level_2_category_14_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["pequeño"],
+					"answers":["pequeño"],
 					"imgUrl":"level_2_category_14_activity_4.jpg"
 				}
 			]
@@ -482,27 +482,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["Fuera"],
+					"answers":["Fuera"],
 					"imgUrl":"level_2_category_15_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["alla"],
+					"answers":["alla"],
 					"imgUrl":"level_2_category_15_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["anterior"],
+					"answers":["anterior"],
 					"imgUrl":"level_2_category_15_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["aqui"],
+					"answers":["aqui"],
 					"imgUrl":"level_2_category_15_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["dentro"],
+					"answers":["dentro"],
 					"imgUrl":"level_2_category_15_activity_4.jpg"
 				}
 			]
@@ -516,27 +516,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["ayer"],
+					"answers":["ayer"],
 					"imgUrl":"level_2_category_16_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["despues"],
+					"answers":["despues"],
 					"imgUrl":"level_2_category_16_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["hoy"],
+					"answers":["hoy"],
 					"imgUrl":"level_2_category_16_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["mañana"],
+					"answers":["mañana"],
 					"imgUrl":"level_2_category_16_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["pasado mañana"],
+					"answers":["pasado mañana"],
 					"imgUrl":"level_2_category_16_activity_4.jpg"
 				}
 			]
@@ -550,27 +550,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["cinco"],
+					"answers":["cinco"],
 					"imgUrl":"level_2_category_17_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["nueve"],
+					"answers":["nueve"],
 					"imgUrl":"level_2_category_17_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["ocho"],
+					"answers":["ocho"],
 					"imgUrl":"level_2_category_17_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["tres"],
+					"answers":["tres"],
 					"imgUrl":"level_2_category_17_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["uno"],
+					"answers":["uno"],
 					"imgUrl":"level_2_category_17_activity_4.jpg"
 				}
 			]
@@ -584,27 +584,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["celular"],
+					"answers":["celular"],
 					"imgUrl":"level_2_category_18_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["lampara"],
+					"answers":["lampara"],
 					"imgUrl":"level_2_category_18_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["radio"],
+					"answers":["radio"],
 					"imgUrl":"level_2_category_18_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["silla"],
+					"answers":["silla"],
 					"imgUrl":"level_2_category_18_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["televisor"],
+					"answers":["televisor"],
 					"imgUrl":"level_2_category_18_activity_4.jpg"
 				}
 			]
@@ -618,27 +618,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["albañil"],
+					"answers":["albañil"],
 					"imgUrl":"level_2_category_19_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["carnicero"],
+					"answers":["carnicero"],
 					"imgUrl":"level_2_category_19_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["enfermera"],
+					"answers":["enfermera"],
 					"imgUrl":"level_2_category_19_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["mecanico"],
+					"answers":["mecanico"],
 					"imgUrl":"level_2_category_19_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["odontologo"],
+					"answers":["odontologo"],
 					"imgUrl":"level_2_category_19_activity_4.jpg"
 				}
 			]
@@ -652,27 +652,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["cabello"],
+					"answers":["cabello"],
 					"imgUrl":"level_2_category_20_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["dedos"],
+					"answers":["dedos"],
 					"imgUrl":"level_2_category_20_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["lengua"],
+					"answers":["lengua"],
 					"imgUrl":"level_2_category_20_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["oreja"],
+					"answers":["oreja"],
 					"imgUrl":"level_2_category_20_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["pene"],
+					"answers":["pene"],
 					"imgUrl":"level_2_category_20_activity_4.jpg"
 				}
 			]
@@ -686,27 +686,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["andres bello"],
+					"answers":["andres bello"],
 					"imgUrl":"level_2_category_21_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["antonio jose de sucre"],
+					"answers":["antonio jose de sucre"],
 					"imgUrl":"level_2_category_21_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["josefa camejo"],
+					"answers":["josefa camejo"],
 					"imgUrl":"level_2_category_21_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["negro primero"],
+					"answers":["negro primero"],
 					"imgUrl":"level_2_category_21_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["simon bolivar"],
+					"answers":["simon bolivar"],
 					"imgUrl":"level_2_category_21_activity_4.jpg"
 				}
 			]
@@ -720,27 +720,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["abuela"],
+					"answers":["abuela"],
 					"imgUrl":"level_2_category_22_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["hija"],
+					"answers":["hija"],
 					"imgUrl":"level_2_category_22_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["hijo"],
+					"answers":["hijo"],
 					"imgUrl":"level_2_category_22_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["tia"],
+					"answers":["tia"],
 					"imgUrl":"level_2_category_22_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["tio"],
+					"answers":["tio"],
 					"imgUrl":"level_2_category_22_activity_4.jpg"
 				}
 			]
@@ -754,27 +754,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["bota"],
+					"answers":["bota"],
 					"imgUrl":"level_2_category_23_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["falda"],
+					"answers":["falda"],
 					"imgUrl":"level_2_category_23_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["franela"],
+					"answers":["franela"],
 					"imgUrl":"level_2_category_23_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["gorra"],
+					"answers":["gorra"],
 					"imgUrl":"level_2_category_23_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["vestidos"],
+					"answers":["vestidos"],
 					"imgUrl":"level_2_category_23_activity_4.jpg"
 				}
 			]
@@ -788,22 +788,22 @@
 			[
 				{
 					"id":0,
-					"asnwers":["araguaney"],
+					"answers":["araguaney"],
 					"imgUrl":"level_2_category_24_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["bandera"],
+					"answers":["bandera"],
 					"imgUrl":"level_2_category_24_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["orquidea"],
+					"answers":["orquidea"],
 					"imgUrl":"level_2_category_24_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["turpial"],
+					"answers":["turpial"],
 					"imgUrl":"level_2_category_24_activity_3.jpg"
 				}
 			]
@@ -817,27 +817,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["dolor de cabeza"],
+					"answers":["dolor de cabeza"],
 					"imgUrl":"level_2_category_25_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["fiebre"],
+					"answers":["fiebre"],
 					"imgUrl":"level_2_category_25_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["mareo"],
+					"answers":["mareo"],
 					"imgUrl":"level_2_category_25_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["picazon"],
+					"answers":["picazon"],
 					"imgUrl":"level_2_category_25_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["tos"],
+					"answers":["tos"],
 					"imgUrl":"level_2_category_25_activity_4.jpg"
 				}
 			]
@@ -851,17 +851,17 @@
 			[
 				{
 					"id":0,
-					"asnwers":["cuchillo"],
+					"answers":["cuchillo"],
 					"imgUrl":"level_2_category_26_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["jarra"],
-					"image":"level_2_category_26_activity_1.jpg"
+					"answers":["jarra"],
+					"imgUrl":"level_2_category_26_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["sarten"],
+					"answers":["sarten"],
 					"imgUrl":"level_2_category_26_activity_2.jpg"
 				}
 			]
@@ -875,27 +875,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["canaima"],
+					"answers":["canaima"],
 					"imgUrl":"level_2_category_27_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["libro"],
+					"answers":["libro"],
 					"imgUrl":"level_2_category_27_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["morral"],
+					"answers":["morral"],
 					"imgUrl":"level_2_category_27_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["pega"],
+					"answers":["pega"],
 					"imgUrl":"level_2_category_27_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["regla"],
+					"answers":["regla"],
 					"imgUrl":"level_2_category_27_activity_4.jpg"
 				}
 			]
@@ -909,27 +909,27 @@
 			[
 				{
 					"id":0,
-					"asnwers":["cebolla"],
+					"answers":["cebolla"],
 					"imgUrl":"level_2_category_28_activity_0.jpg"
 				},
 				{
 					"id":1,
-					"asnwers":["jojoto"],
+					"answers":["jojoto"],
 					"imgUrl":"level_2_category_28_activity_1.jpg"
 				},
 				{
 					"id":2,
-					"asnwers":["remolacha"],
+					"answers":["remolacha"],
 					"imgUrl":"level_2_category_28_activity_2.jpg"
 				},
 				{
 					"id":3,
-					"asnwers":["vainita"],
+					"answers":["vainita"],
 					"imgUrl":"level_2_category_28_activity_3.jpg"
 				},
 				{
 					"id":4,
-					"asnwers":["zanahoria"],
+					"answers":["zanahoria"],
 					"imgUrl":"level_2_category_28_activity_4.jpg"
 				}
 			]

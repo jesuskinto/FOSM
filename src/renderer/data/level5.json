@@ -398,8 +398,8 @@
             },
             {
               "id": 1,
-              "answers": ["diabete"],
-              "imgUrl": "level_5_category_6_activity_1.jpg"
+              "answers": ["diabete","diabetes"],
+              "imgUrl": "level_5_category_6_activity_1.jpeg"
             },
             {
               "id": 2,
@@ -440,6 +440,11 @@
               "id": 9,
               "answers": ["VPH"],
               "imgUrl": "level_5_category_6_activity_9.jpg"
+            },
+            {
+              "id": 10,
+              "answers": ["COVID-19","COVID"],
+              "imgUrl": "level_5_category_6_activity_10.jpeg"
             }
         ]
     },
