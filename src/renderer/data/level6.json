@@ -149,11 +149,6 @@
             "id": 3,
             "answers": ["mermelada"],
             "imgUrl": "level_6_category_4_activity_3.jpg"
-          },
-          {
-            "id": 4,
-            "answers": ["marfil"],
-            "imgUrl": "level_5_category_4_activity_4.jpg"
           }
         ]
     },
@@ -244,28 +239,8 @@
       "activities": [
           {
             "id": 0,
-            "answers": ["Quince billones seiscientos cincuenta y ocho mil novecientos ochenta millones cincuenta mil dos"],
-            "imgUrl": "level_6_category_8_activity_0.jpg"
-          },
-          {
-            "id": 1,
             "answers": ["Un billon"],
             "imgUrl": "level_6_category_8_activity_1.jpg"
-          },
-          {
-            "id": 2,
-            "answers": ["Doce billones trescientos veinte mil cincuenta millones dieciocho mil quinientos"],
-            "imgUrl": "level_6_category_8_activity_2.jpg"
-          },
-          {
-            "id": 3,
-            "answers": ["Nueve billones ochocientos noventa y siete mil millones diecisiete mil"],
-            "imgUrl": "level_6_category_8_activity_3.jpg"
-          },
-          {
-            "id": 4,
-            "answers": ["Tres billones ochocientos veinte mil seiscientos millones treinta mil"],
-            "imgUrl": "level_6_category_8_activity_4.jpg"
           }
         ]
     },
