@@ -1,17 +1,19 @@
 <template>
-  <div>
+  <div class="App">
     <Navbar />
     <div class="main-router p20">
       <router-link
-        v-for="level in levels"
+        v-for="(level, index) in levels"
         :key="level.id"
         :to="{ name: 'level', query: { id: level.id } }"
-        class="box"
+        class="box level-box"
         tag="div" >
-          {{level.title}}
+        <span>{{level.title}}</span>
+        <figure class="image is-64x64 icon-level">
+          <img :src="require(`@/assets/images/level_${index}.jpeg`)">
+        </figure>
         </router-link>
     </div>
-    <Footer />
   </div>
 </template>
 
@@ -46,6 +48,31 @@
 </script>
 
 <style>
+.level-box {
+  height: 115px;
+  vertical-align: middle;
+}
+
+.level-box span{
+  vertical-align: middle;
+  line-height: 74px;
+}
+
+.icon-level {
+  border-radius: 15px;
+  margin-right: 20px;
+  float: left;
+}
+
+.App {
+  background: hsla(76, 100%, 95%, 1);
+  background: linear-gradient(90deg, hsla(76, 100%, 95%, 1) 0%, hsla(155, 73%, 75%, 1) 0%, hsla(160, 73%, 65%, 1) 18%, hsla(164, 95%, 43%, 1) 50%, hsla(187, 73%, 39%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(76, 100%, 95%, 1) 0%, hsla(155, 73%, 75%, 1) 0%, hsla(160, 73%, 65%, 1) 18%, hsla(164, 95%, 43%, 1) 50%, hsla(187, 73%, 39%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(76, 100%, 95%, 1) 0%, hsla(155, 73%, 75%, 1) 0%, hsla(160, 73%, 65%, 1) 18%, hsla(164, 95%, 43%, 1) 50%, hsla(187, 73%, 39%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f8ffe5", endColorstr="#92EEC8", GradientType=1 );
+  height: 100vh;
+}
+
 .p20 {
   margin: 20px;
 }
@@ -57,6 +84,7 @@
 }
 
 .main-router {
-  margin-bottom: 200px;
+  height: calc(100vh - 100px);
+  overflow-y: scroll;
 }
 </style>

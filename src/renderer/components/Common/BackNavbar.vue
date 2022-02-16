@@ -23,6 +23,10 @@
 .card {
   min-width: 200px;
 }
+
+.navbar.is-primary {
+  background: #06D6A0 !important;
+}
 </style>
 
 
